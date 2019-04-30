@@ -19,7 +19,7 @@ import { MatDialog } from '@angular/material';
 export class TableSettingsComponent implements OnInit, OnDestroy {
     tableModes = Constants.TABLE_MODES;
     showTypes = Constants.SHOW_TYPES;
-    tableSettings: TableSettings = DataService.getDefaultTableSettings();
+    tableSettings: TableSettings; // = DataService.getDefaultTableSettings();
     private componentActive: boolean = true;
     private data: FclData;
 
@@ -33,6 +33,7 @@ export class TableSettingsComponent implements OnInit, OnDestroy {
         ).subscribe(
             (data: FclData) => {
                 this.data = data;
+                this.tableSettings = data.tableSettings;
             }, (error => {
                 throw new Error(`error loading data: ${error}`);
             })

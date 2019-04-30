@@ -4,7 +4,7 @@
             class="fcl-toolbar-menu-bottom"
             mat-icon-button
             (click)="onToggleLeftSidebar()"
-            [ngStyle]="{'visibility':isTracingActive() ? 'visible' : 'hidden'}">
+            [ngStyle]="{'visibility': tracingActive ? 'visible' : 'hidden'}">
             <mat-icon>menu</mat-icon>
         </button>
         <button
@@ -16,5 +16,5 @@
         </button>
     </div>
     <fcl-toolbar-action-container class="fcl-item fcl-toolbar-action-item fcl-toolbar-action-container"></fcl-toolbar-action-container>
-    <fcl-avatar-container class="fcl-item fcl-toolbar-avatar-container"></fcl-avatar-container>
+    <fcl-avatar-container class="fcl-item fcl-toolbar-avatar-container fcl-toolbar-menu-bottom"></fcl-avatar-container>
 </mat-toolbar>

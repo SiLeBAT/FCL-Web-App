@@ -1,0 +1,4941 @@
+{
+  "stations" : [ {
+    "id" : "S-1409341928",
+    "name" : "Day-care centre 07",
+    "ID" : "-1409341928",
+    "Name" : "Day-care centre 07",
+    "Address" : "Kapelleschweg 1, 72818 Trochtelfingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.30489247988113,
+    "lon" : 9.23542185239012,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-152237755",
+    "name" : "Day-care centre 15",
+    "ID" : "-152237755",
+    "Name" : "Day-care centre 15",
+    "Address" : "Rollenbühlweg 1, 72813 Sankt Johann",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.458554631380544,
+    "lon" : 9.339669479461282,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.0,
+    "Normalized Score" : 0.0,
+    "Positive Score" : 0.0,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "S-1597108525",
+    "name" : "Day-care centre 03",
+    "ID" : "-1597108525",
+    "Name" : "Day-care centre 03",
+    "Address" : "Panoramastraße 1, 72393 Burladingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.25190067442647,
+    "lon" : 9.182389540897931,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-1635430433",
+    "name" : "Day-care centre 05",
+    "ID" : "-1635430433",
+    "Name" : "Day-care centre 05",
+    "Address" : "Friedrich-Wolf-Weg 1, 72379 Hechingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.35149002075195,
+    "lon" : 8.963170051574707,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-1648124026",
+    "name" : "Grammar school 02",
+    "ID" : "-1648124026",
+    "Name" : "Grammar school 02",
+    "Address" : "Hechinger Straße 1, 72501 Gammertingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.43659890147651,
+    "lon" : 9.141272256116759,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-16597794",
+    "name" : "Grammar school 01",
+    "ID" : "-16597794",
+    "Name" : "Grammar school 01",
+    "Address" : "Gammertinger Straße 1, 72379 Hechingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.35520040970795,
+    "lon" : 8.974993244672909,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-1766649815",
+    "name" : "Secondary modern school 06",
+    "ID" : "-1766649815",
+    "Name" : "Secondary modern school 06",
+    "Address" : "Orffweg 1, 72555 Metzingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.67540215,
+    "lon" : 9.355535249999999,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-1789218288",
+    "name" : "Day-care centre 08",
+    "ID" : "-1789218288",
+    "Name" : "Day-care centre 08",
+    "Address" : "Sperberweg 1, 72829 Engstingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.35580669362478,
+    "lon" : 9.331265765374008,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-1791337135",
+    "name" : "Strawberry Farm 3",
+    "ID" : "-1791337135",
+    "Name" : "Strawberry Farm 3",
+    "Address" : "Winkelhausen 1, 51519 Odenthal",
+    "Country" : "DE",
+    "type of business" : "Primary producer",
+    "SimpleSupplier" : true,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 51.04559517298855,
+    "lon" : 7.163020732403375,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 1.0,
+    "Max Lot Score" : 1.0,
+    "Normalized Score" : 1.0,
+    "Positive Score" : 1.0,
+    "Negative Score" : 0.0,
+    "Backward" : true,
+    "Forward" : false
+  }, {
+    "id" : "S-1801516174",
+    "name" : "Secondary modern school 04",
+    "ID" : "-1801516174",
+    "Name" : "Secondary modern school 04",
+    "Address" : "Siemensstraße 1, 72818 Trochtelfingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.30796492078393,
+    "lon" : 9.23357857575826,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-1839649003",
+    "name" : "Caterer 1",
+    "ID" : "-1839649003",
+    "Name" : "Caterer 1",
+    "Address" : "Kantstraße 1, 72393 Burladingen",
+    "Country" : "DE",
+    "type of business" : "Caterer",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : false,
+    "lat" : 48.20688944918095,
+    "lon" : 9.03640864961483,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.5483870967741935,
+    "Max Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.5483870967741935,
+    "Positive Score" : 0.5483870967741935,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-2011920226",
+    "name" : "Day-care centre 14",
+    "ID" : "-2011920226",
+    "Name" : "Day-care centre 14",
+    "Address" : "Wangstraße 1, 72813 Sankt Johann",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.45218254346061,
+    "lon" : 9.347025515170872,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-2029115896",
+    "name" : "Day-care centre 04",
+    "ID" : "-2029115896",
+    "Name" : "Day-care centre 04",
+    "Address" : "Tübinger Straße 1, 72379 Hechingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.36078879057287,
+    "lon" : 8.968830234309415,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-257059198",
+    "name" : "Primary school 04",
+    "ID" : "-257059198",
+    "Name" : "Primary school 04",
+    "Address" : "Stillfriedstraße 1, 72379 Hechingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.35149002075195,
+    "lon" : 8.963170051574707,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-411251602",
+    "name" : "Meat Supplier",
+    "ID" : "-411251602",
+    "Name" : "Meat Supplier",
+    "Address" : "Mühlstraße 1, 72074 Tübingen",
+    "Country" : "DE",
+    "type of business" : "Supplier",
+    "SimpleSupplier" : false,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 48.5195521,
+    "lon" : 9.058118449999998,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.8387096774193549,
+    "Max Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.8387096774193549,
+    "Positive Score" : 0.8387096774193549,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "S-46423443",
+    "name" : "Secondary modern school 05",
+    "ID" : "-46423443",
+    "Name" : "Secondary modern school 05",
+    "Address" : "Auf dem Graben 1, 72574 Bad Urach",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.4935664895973,
+    "lon" : 9.396751443964341,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-465968944",
+    "name" : "Can Supplier",
+    "ID" : "-465968944",
+    "Name" : "Can Supplier",
+    "Address" : "Am Heilbrunnen 1, 72766 Reutlingen",
+    "Country" : "DE",
+    "type of business" : "Supplier",
+    "SimpleSupplier" : true,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 48.500687441490605,
+    "lon" : 9.216310387092769,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.5483870967741935,
+    "Max Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.5483870967741935,
+    "Positive Score" : 0.5483870967741935,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "S-469407878",
+    "name" : "Dairy Plant",
+    "ID" : "-469407878",
+    "Name" : "Dairy Plant",
+    "Address" : "Ostendstraße 1, 82390 Eberfing",
+    "Country" : "DE",
+    "type of business" : "Supplier",
+    "SimpleSupplier" : true,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 47.790655435885384,
+    "lon" : 11.20313425591551,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.45161290322580644,
+    "Max Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.45161290322580644,
+    "Positive Score" : 0.45161290322580644,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "S-530502898",
+    "name" : "Caterer 2",
+    "ID" : "-530502898",
+    "Name" : "Caterer 2",
+    "Address" : "Meidelstetter Straße 1, 72829 Engstingen",
+    "Country" : "DE",
+    "type of business" : "Caterer",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : false,
+    "lat" : 48.38565029864968,
+    "lon" : 9.288398192795247,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.45161290322580644,
+    "Max Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.45161290322580644,
+    "Positive Score" : 0.45161290322580644,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-748298955",
+    "name" : "Dairy Produce Sales and Distribution Ltd.",
+    "ID" : "-748298955",
+    "Name" : "Dairy Produce Sales and Distribution Ltd.",
+    "Address" : "Hasenbergstraße 1, 70176 Stuttgart",
+    "Country" : "DE",
+    "type of business" : "Supplier",
+    "SimpleSupplier" : true,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 48.77477596400036,
+    "lon" : 9.158931040617963,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.5483870967741935,
+    "Max Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.5483870967741935,
+    "Positive Score" : 0.5483870967741935,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "S-89891365",
+    "name" : "Grammar school 05",
+    "ID" : "-89891365",
+    "Name" : "Grammar school 05",
+    "Address" : "Im Millert 1, 72555 Metzingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.54936971173532,
+    "lon" : 9.286746295422153,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S-927107216",
+    "name" : "Grammar school 04",
+    "ID" : "-927107216",
+    "Name" : "Grammar school 04",
+    "Address" : "Stuttgarter Straße 1, 72574 Bad Urach",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.494702559667815,
+    "lon" : 9.395463368678548,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S106130750",
+    "name" : "Strawberry Farm 2",
+    "ID" : "106130750",
+    "Name" : "Strawberry Farm 2",
+    "Address" : "Venloer Straße 1, 50259 Pulheim",
+    "Country" : "DE",
+    "type of business" : "Primary producer",
+    "SimpleSupplier" : true,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 50.9825141,
+    "lon" : 6.83891015,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 1.0,
+    "Max Lot Score" : 1.0,
+    "Normalized Score" : 1.0,
+    "Positive Score" : 1.0,
+    "Negative Score" : 0.0,
+    "Backward" : true,
+    "Forward" : false
+  }, {
+    "id" : "S1216382991",
+    "name" : "Day-care centre 06",
+    "ID" : "1216382991",
+    "Name" : "Day-care centre 06",
+    "Address" : "Eichertstraße 1, 72501 Gammertingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.25354497666356,
+    "lon" : 9.219623146785091,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S1232435072",
+    "name" : "Caterer 3",
+    "ID" : "1232435072",
+    "Name" : "Caterer 3",
+    "Address" : "Schwärzestraße 1, 72532 Gomadingen",
+    "Country" : "DE",
+    "type of business" : "Caterer",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : false,
+    "lat" : 48.39979934692383,
+    "lon" : 9.390649795532227,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : true,
+    "Observed" : false,
+    "Score" : 0.0,
+    "Max Lot Score" : 0.0,
+    "Normalized Score" : 0.0,
+    "Positive Score" : 0.0,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S1264578570",
+    "name" : "Primary school 06",
+    "ID" : "1264578570",
+    "Name" : "Primary school 06",
+    "Address" : "Sonnenhalde 1, 72532 Gomadingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.40206016460115,
+    "lon" : 9.392988773696539,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S131140026",
+    "name" : "Day-care centre 13",
+    "ID" : "131140026",
+    "Name" : "Day-care centre 13",
+    "Address" : "Bachstraße 1, 72585 Riederich",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.56371528277731,
+    "lon" : 9.19919214618574,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S1484439470",
+    "name" : "Day-care centre 01",
+    "ID" : "1484439470",
+    "Name" : "Day-care centre 01",
+    "Address" : "Weilbachstraße 1, 72417 Jungingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.33149372599811,
+    "lon" : 9.039773080894044,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S1548274289",
+    "name" : "Primary school 01",
+    "ID" : "1548274289",
+    "Name" : "Primary school 01",
+    "Address" : "Heuweg 1, 72417 Jungingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.33200939541196,
+    "lon" : 9.043584318670469,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S1598528439",
+    "name" : "Primary School 09",
+    "ID" : "1598528439",
+    "Name" : "Primary School 09",
+    "Address" : "Vor dem Berg 1, 72829 Engstingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.37995774235079,
+    "lon" : 9.282952932473233,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.0,
+    "Normalized Score" : 0.0,
+    "Positive Score" : 0.0,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "S1739249147",
+    "name" : "Primary school 08",
+    "ID" : "1739249147",
+    "Name" : "Primary school 08",
+    "Address" : "Emil-Mörsch-Weg 1, 72555 Metzingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.5384480663032,
+    "lon" : 9.296546413704432,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S182685765",
+    "name" : "Wine Sales and Distribution Ltd.",
+    "ID" : "182685765",
+    "Name" : "Wine Sales and Distribution Ltd.",
+    "Address" : "Johannes-Weitzel-Straße 1, 65366 Geisenheim",
+    "Country" : "DE",
+    "type of business" : "Supplier",
+    "SimpleSupplier" : true,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 50.005702,
+    "lon" : 7.9809284,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Max Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "S1832768338",
+    "name" : "Day-care centre 12",
+    "ID" : "1832768338",
+    "Name" : "Day-care centre 12",
+    "Address" : "Im Altweck 1, 72585 Riederich",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.56380385560284,
+    "lon" : 9.267719127801417,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S1854807080",
+    "name" : "Egg Farmer",
+    "ID" : "1854807080",
+    "Name" : "Egg Farmer",
+    "Address" : "Starzelstraße 1, 72414 Rangendingen",
+    "Country" : "DE",
+    "type of business" : "Primary producer",
+    "SimpleSupplier" : true,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 48.3820216,
+    "lon" : 8.8900443,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.45161290322580644,
+    "Max Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.45161290322580644,
+    "Positive Score" : 0.45161290322580644,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "S203587379",
+    "name" : "Day-care centre 09",
+    "ID" : "203587379",
+    "Name" : "Day-care centre 09",
+    "Address" : "Bannholz 1, 72532 Gomadingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.565546,
+    "lon" : 9.40669265,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S2044481558",
+    "name" : "Secondary modern school 03",
+    "ID" : "2044481558",
+    "Name" : "Secondary modern school 03",
+    "Address" : "Europastraße 1, 72501 Gammertingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.24578515147669,
+    "lon" : 9.221914187327094,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S2087501336",
+    "name" : "Vegetable Farmer",
+    "ID" : "2087501336",
+    "Name" : "Vegetable Farmer",
+    "Address" : "Mettwinkel 1, 72393 Burladingen",
+    "Country" : "DE",
+    "type of business" : "Primary producer",
+    "SimpleSupplier" : false,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 48.283329010009766,
+    "lon" : 9.116669654846191,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.7096774193548387,
+    "Max Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.7096774193548387,
+    "Positive Score" : 0.7096774193548387,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "S2133553554",
+    "name" : "Primary school 07",
+    "ID" : "2133553554",
+    "Name" : "Primary school 07",
+    "Address" : "Stuttgarter Straße 1, 72574 Bad Urach",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.494702559667815,
+    "lon" : 9.395463368678548,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S390838275",
+    "name" : "Secondary modern school 02",
+    "ID" : "390838275",
+    "Name" : "Secondary modern school 02",
+    "Address" : "Gammertinger Straße 1, 72379 Hechingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.35520040970795,
+    "lon" : 8.974993244672909,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S407428001",
+    "name" : "Spices and Dried Products Sales",
+    "ID" : "407428001",
+    "Name" : "Spices and Dried Products Sales",
+    "Address" : "Uttenreuther Straße 1, 90411 Nürnberg",
+    "Country" : "DE",
+    "type of business" : "Supplier",
+    "SimpleSupplier" : false,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 49.487553225114816,
+    "lon" : 11.116042786150091,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 1.0,
+    "Max Lot Score" : 1.0,
+    "Normalized Score" : 1.0,
+    "Positive Score" : 1.0,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "S427774501",
+    "name" : "Strawberry Farm 1",
+    "ID" : "427774501",
+    "Name" : "Strawberry Farm 1",
+    "Address" : "Am Bommerichshof 1, 50129 Bergheim",
+    "Country" : "DE",
+    "type of business" : "Primary producer",
+    "SimpleSupplier" : true,
+    "DeadStart" : true,
+    "DeadEnd" : false,
+    "lat" : 50.99353949973033,
+    "lon" : 6.709243205762186,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 1.0,
+    "Max Lot Score" : 1.0,
+    "Normalized Score" : 1.0,
+    "Positive Score" : 1.0,
+    "Negative Score" : 0.0,
+    "Backward" : true,
+    "Forward" : false
+  }, {
+    "id" : "S439383000",
+    "name" : "Day-care centre 10",
+    "ID" : "439383000",
+    "Name" : "Day-care centre 10",
+    "Address" : "Eichbergstraße 1, 72813 Sankt Johann",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.528362272111636,
+    "lon" : 9.274460039315823,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S579646945",
+    "name" : "Primary school 05",
+    "ID" : "579646945",
+    "Name" : "Primary school 05",
+    "Address" : "Steinbeisstraße 1, 72501 Gammertingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.24364179445137,
+    "lon" : 9.21515436008053,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S598059533",
+    "name" : "Primary school 02",
+    "ID" : "598059533",
+    "Name" : "Primary school 02",
+    "Address" : "Lichtensteinweg 1, 72393 Burladingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.29578055,
+    "lon" : 9.1043719,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S706549269",
+    "name" : "Secondary modern school 01",
+    "ID" : "706549269",
+    "Name" : "Secondary modern school 01",
+    "Address" : "Brunnenstraße 1, 72417 Jungingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.33219561769005,
+    "lon" : 9.181335890088274,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S725897958",
+    "name" : "Frozen Fruit Sales",
+    "ID" : "725897958",
+    "Name" : "Frozen Fruit Sales",
+    "Address" : "Hugo-Eckener-Straße 1, 50829 Köln",
+    "Country" : "DE",
+    "type of business" : "Supplier",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : false,
+    "lat" : 50.97759161622847,
+    "lon" : 6.896416348918934,
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 1.0,
+    "Max Lot Score" : 1.0,
+    "Normalized Score" : 1.0,
+    "Positive Score" : 1.0,
+    "Negative Score" : 0.0,
+    "Backward" : true,
+    "Forward" : false
+  }, {
+    "id" : "S73607605",
+    "name" : "Grammar school 03",
+    "ID" : "73607605",
+    "Name" : "Grammar school 03",
+    "Address" : "Schillerstraße 1, 72818 Trochtelfingen",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.19301046228178,
+    "lon" : 9.283016989295884,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "S786708581",
+    "name" : "Day-care centre 11",
+    "ID" : "786708581",
+    "Name" : "Day-care centre 11",
+    "Address" : "Schillerstraße 1, 72574 Bad Urach",
+    "Country" : "DE",
+    "type of business" : "Educational institution",
+    "SimpleSupplier" : false,
+    "DeadStart" : false,
+    "DeadEnd" : true,
+    "lat" : 48.527690303358575,
+    "lon" : 9.354199061151487,
+    "Weight" : 1.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  } ],
+  "deliveries" : [ {
+    "id" : "D-1409722688",
+    "source" : "S725897958",
+    "target" : "S1232435072",
+    "name" : "Frozen Strawberries",
+    "lot" : "108",
+    "date" : "2014-08-29",
+    "ID" : "-1409722688",
+    "from" : "725897958",
+    "to" : "1232435072",
+    "Name" : "Frozen Strawberries",
+    "Lot ID" : "1344108790",
+    "Lot Number" : "108",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "7 750g Packets",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : true,
+    "Score" : 0.0,
+    "Lot Score" : 1.0,
+    "Normalized Score" : 0.0,
+    "Positive Score" : 0.0,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D375681474",
+    "source" : "S725897958",
+    "target" : "S-1839649003",
+    "name" : "Frozen Strawberries",
+    "lot" : "108",
+    "date" : "2014-08-29",
+    "ID" : "375681474",
+    "from" : "725897958",
+    "to" : "-1839649003",
+    "Name" : "Frozen Strawberries",
+    "Lot ID" : "1344108790",
+    "Lot Number" : "108",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "40 750g Packets",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : true,
+    "Score" : 0.5483870967741935,
+    "Lot Score" : 1.0,
+    "Normalized Score" : 0.5483870967741935,
+    "Positive Score" : 0.5483870967741935,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1233497555",
+    "source" : "S725897958",
+    "target" : "S-530502898",
+    "name" : "Frozen Strawberries",
+    "lot" : "108",
+    "date" : "2014-08-29",
+    "ID" : "1233497555",
+    "from" : "725897958",
+    "to" : "-530502898",
+    "Name" : "Frozen Strawberries",
+    "Lot ID" : "1344108790",
+    "Lot Number" : "108",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "86 750g Packets",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : true,
+    "Score" : 0.45161290322580644,
+    "Lot Score" : 1.0,
+    "Normalized Score" : 0.45161290322580644,
+    "Positive Score" : 0.45161290322580644,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-353964204",
+    "source" : "S407428001",
+    "target" : "S-530502898",
+    "name" : "Pepper",
+    "lot" : "[delivery 201464_1 100g Packets]",
+    "date" : "2014-06-04",
+    "ID" : "-353964204",
+    "from" : "407428001",
+    "to" : "-530502898",
+    "Name" : "Pepper",
+    "Lot ID" : "1112819048",
+    "Lot Number" : "[delivery 201464_1 100g Packets]",
+    "Date Delivery Arrival" : "2014-06-04",
+    "Amount" : "1 100g Packets",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1564302581",
+    "source" : "S407428001",
+    "target" : "S-1839649003",
+    "name" : "Pepper",
+    "lot" : "113",
+    "date" : "2014-08-04",
+    "ID" : "1564302581",
+    "from" : "407428001",
+    "to" : "-1839649003",
+    "Name" : "Pepper",
+    "Lot ID" : "1388257545",
+    "Lot Number" : "113",
+    "Date Delivery Arrival" : "2014-08-04",
+    "Amount" : "1 1kg Bags",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.5483870967741935,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.5483870967741935,
+    "Positive Score" : 0.5483870967741935,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1592275507",
+    "source" : "S2087501336",
+    "target" : "S-530502898",
+    "name" : "Garlic",
+    "lot" : "143",
+    "date" : "2014-09-02",
+    "ID" : "1592275507",
+    "from" : "2087501336",
+    "to" : "-530502898",
+    "Name" : "Garlic",
+    "Lot ID" : "-1374693765",
+    "Lot Number" : "143",
+    "Date Delivery Arrival" : "2014-09-02",
+    "Amount" : "300 Piece",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1181059067",
+    "source" : "S407428001",
+    "target" : "S-1839649003",
+    "name" : "Noodles",
+    "lot" : "111",
+    "date" : "2014-08-13",
+    "ID" : "-1181059067",
+    "from" : "407428001",
+    "to" : "-1839649003",
+    "Name" : "Noodles",
+    "Lot ID" : "1073270111",
+    "Lot Number" : "111",
+    "Date Delivery Arrival" : "2014-08-13",
+    "Amount" : "150 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.5483870967741935,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.5483870967741935,
+    "Positive Score" : 0.5483870967741935,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1535334209",
+    "source" : "S407428001",
+    "target" : "S-530502898",
+    "name" : "Sugar",
+    "lot" : "129",
+    "date" : "2014-08-21",
+    "ID" : "-1535334209",
+    "from" : "407428001",
+    "to" : "-530502898",
+    "Name" : "Sugar",
+    "Lot ID" : "374241071",
+    "Lot Number" : "129",
+    "Date Delivery Arrival" : "2014-08-21",
+    "Amount" : "2 10kg Bags",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.45161290322580644,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.45161290322580644,
+    "Positive Score" : 0.45161290322580644,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1324554922",
+    "source" : "S407428001",
+    "target" : "S-530502898",
+    "name" : "Salt",
+    "lot" : "112",
+    "date" : "2014-08-04",
+    "ID" : "1324554922",
+    "from" : "407428001",
+    "to" : "-530502898",
+    "Name" : "Salt",
+    "Lot ID" : "360335345",
+    "Lot Number" : "112",
+    "Date Delivery Arrival" : "2014-08-04",
+    "Amount" : "1 1kg Bags",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.45161290322580644,
+    "Lot Score" : 1.0,
+    "Normalized Score" : 0.45161290322580644,
+    "Positive Score" : 0.45161290322580644,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1187600051",
+    "source" : "S407428001",
+    "target" : "S-1839649003",
+    "name" : "Salt",
+    "lot" : "112",
+    "date" : "2014-08-04",
+    "ID" : "-1187600051",
+    "from" : "407428001",
+    "to" : "-1839649003",
+    "Name" : "Salt",
+    "Lot ID" : "360335345",
+    "Lot Number" : "112",
+    "Date Delivery Arrival" : "2014-08-04",
+    "Amount" : "1 1kg Bags",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.5483870967741935,
+    "Lot Score" : 1.0,
+    "Normalized Score" : 0.5483870967741935,
+    "Positive Score" : 0.5483870967741935,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D309475001",
+    "source" : "S407428001",
+    "target" : "S-530502898",
+    "name" : "Curry",
+    "lot" : "147",
+    "date" : "2014-06-04",
+    "ID" : "309475001",
+    "from" : "407428001",
+    "to" : "-530502898",
+    "Name" : "Curry",
+    "Lot ID" : "506441342",
+    "Lot Number" : "147",
+    "Date Delivery Arrival" : "2014-06-04",
+    "Amount" : "2 100g Packets",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D556420146",
+    "source" : "S-748298955",
+    "target" : "S-1839649003",
+    "name" : "Cream",
+    "lot" : "115",
+    "date" : "2014-08-29",
+    "ID" : "556420146",
+    "from" : "-748298955",
+    "to" : "-1839649003",
+    "Name" : "Cream",
+    "Lot ID" : "940561955",
+    "Lot Number" : "115",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "45 Liter",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.41935483870967744,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.41935483870967744,
+    "Positive Score" : 0.41935483870967744,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1211741339",
+    "source" : "S407428001",
+    "target" : "S-530502898",
+    "name" : "Semolina",
+    "lot" : "138",
+    "date" : "2014-09-02",
+    "ID" : "-1211741339",
+    "from" : "407428001",
+    "to" : "-530502898",
+    "Name" : "Semolina",
+    "Lot ID" : "1900571225",
+    "Lot Number" : "138",
+    "Date Delivery Arrival" : "2014-09-02",
+    "Amount" : "24 1kg Cartons",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.45161290322580644,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.45161290322580644,
+    "Positive Score" : 0.45161290322580644,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1599771664",
+    "source" : "S-1791337135",
+    "target" : "S725897958",
+    "name" : "Strawberries",
+    "lot" : "107",
+    "date" : "2014-06-27",
+    "ID" : "1599771664",
+    "from" : "-1791337135",
+    "to" : "725897958",
+    "Name" : "Strawberries",
+    "Lot ID" : "445562790",
+    "Lot Number" : "107",
+    "Date Delivery Arrival" : "2014-06-27",
+    "Amount" : "300 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 1.0,
+    "Lot Score" : 1.0,
+    "Normalized Score" : 1.0,
+    "Positive Score" : 1.0,
+    "Negative Score" : 0.0,
+    "Backward" : true,
+    "Forward" : false
+  }, {
+    "id" : "D-157784701",
+    "source" : "S-1839649003",
+    "target" : "S579646945",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "-157784701",
+    "from" : "-1839649003",
+    "to" : "579646945",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "29.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D1079036246",
+    "source" : "S-1839649003",
+    "target" : "S73607605",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "1079036246",
+    "from" : "-1839649003",
+    "to" : "73607605",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "45.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D933637150",
+    "source" : "S-1839649003",
+    "target" : "S-1648124026",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "933637150",
+    "from" : "-1839649003",
+    "to" : "-1648124026",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "48.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D1119828645",
+    "source" : "S-1839649003",
+    "target" : "S390838275",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "1119828645",
+    "from" : "-1839649003",
+    "to" : "390838275",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "38.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D88403882",
+    "source" : "S-1839649003",
+    "target" : "S1548274289",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "88403882",
+    "from" : "-1839649003",
+    "to" : "1548274289",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "45 portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D228599316",
+    "source" : "S-1839649003",
+    "target" : "S706549269",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "228599316",
+    "from" : "-1839649003",
+    "to" : "706549269",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "50 portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-568701000",
+    "source" : "S-1839649003",
+    "target" : "S-2029115896",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "-568701000",
+    "from" : "-1839649003",
+    "to" : "-2029115896",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "47.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D250158289",
+    "source" : "S-1839649003",
+    "target" : "S-1597108525",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "250158289",
+    "from" : "-1839649003",
+    "to" : "-1597108525",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "77.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D1425820947",
+    "source" : "S-1839649003",
+    "target" : "S1484439470",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "1425820947",
+    "from" : "-1839649003",
+    "to" : "1484439470",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "62.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-2074797046",
+    "source" : "S-1839649003",
+    "target" : "S1216382991",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "-2074797046",
+    "from" : "-1839649003",
+    "to" : "1216382991",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "52.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-960656898",
+    "source" : "S-1839649003",
+    "target" : "S-257059198",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "-960656898",
+    "from" : "-1839649003",
+    "to" : "-257059198",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "68.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-1024026034",
+    "source" : "S-1839649003",
+    "target" : "S-1409341928",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "-1024026034",
+    "from" : "-1839649003",
+    "to" : "-1409341928",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "69.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-1137772522",
+    "source" : "S-1839649003",
+    "target" : "S-16597794",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "-1137772522",
+    "from" : "-1839649003",
+    "to" : "-16597794",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "46.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D1816033446",
+    "source" : "S-1839649003",
+    "target" : "S-1801516174",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "1816033446",
+    "from" : "-1839649003",
+    "to" : "-1801516174",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "60.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D1615607798",
+    "source" : "S-1839649003",
+    "target" : "S598059533",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "1615607798",
+    "from" : "-1839649003",
+    "to" : "598059533",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "55 portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D1709402787",
+    "source" : "S-1839649003",
+    "target" : "S2044481558",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "1709402787",
+    "from" : "-1839649003",
+    "to" : "2044481558",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "69.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D1807001206",
+    "source" : "S-1839649003",
+    "target" : "S-1635430433",
+    "name" : "C1 Menu 1",
+    "lot" : "C1M1",
+    "date" : "2014-09-01",
+    "ID" : "1807001206",
+    "from" : "-1839649003",
+    "to" : "-1635430433",
+    "Name" : "C1 Menu 1",
+    "Lot ID" : "-218334344",
+    "Lot Number" : "C1M1",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "40.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-717706357",
+    "source" : "S-1839649003",
+    "target" : "S1216382991",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "-717706357",
+    "from" : "-1839649003",
+    "to" : "1216382991",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "92.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1900999656",
+    "source" : "S-1839649003",
+    "target" : "S1548274289",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "1900999656",
+    "from" : "-1839649003",
+    "to" : "1548274289",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "99 portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D548622479",
+    "source" : "S-1839649003",
+    "target" : "S-1801516174",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "548622479",
+    "from" : "-1839649003",
+    "to" : "-1801516174",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "88.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D119611811",
+    "source" : "S-1839649003",
+    "target" : "S2044481558",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "119611811",
+    "from" : "-1839649003",
+    "to" : "2044481558",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "77.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1821297619",
+    "source" : "S-1839649003",
+    "target" : "S1484439470",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "1821297619",
+    "from" : "-1839649003",
+    "to" : "1484439470",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "92.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D601411324",
+    "source" : "S-1839649003",
+    "target" : "S390838275",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "601411324",
+    "from" : "-1839649003",
+    "to" : "390838275",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "70.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-133259976",
+    "source" : "S-1839649003",
+    "target" : "S-1597108525",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "-133259976",
+    "from" : "-1839649003",
+    "to" : "-1597108525",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "101.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1142921338",
+    "source" : "S-1839649003",
+    "target" : "S73607605",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "1142921338",
+    "from" : "-1839649003",
+    "to" : "73607605",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "82.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-506792144",
+    "source" : "S-1839649003",
+    "target" : "S-1409341928",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "-506792144",
+    "from" : "-1839649003",
+    "to" : "-1409341928",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "110.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1009451428",
+    "source" : "S-1839649003",
+    "target" : "S-2029115896",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "-1009451428",
+    "from" : "-1839649003",
+    "to" : "-2029115896",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "112.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-931496868",
+    "source" : "S-1839649003",
+    "target" : "S-1635430433",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "-931496868",
+    "from" : "-1839649003",
+    "to" : "-1635430433",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "87.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1514815616",
+    "source" : "S-1839649003",
+    "target" : "S706549269",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "1514815616",
+    "from" : "-1839649003",
+    "to" : "706549269",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "101 portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D284071482",
+    "source" : "S-1839649003",
+    "target" : "S598059533",
+    "name" : "C1 Menu 2",
+    "lot" : "C1M2",
+    "date" : "2014-09-01",
+    "ID" : "284071482",
+    "from" : "-1839649003",
+    "to" : "598059533",
+    "Name" : "C1 Menu 2",
+    "Lot ID" : "-432151500",
+    "Lot Number" : "C1M2",
+    "Date Delivery Arrival" : "2014-09-01",
+    "Amount" : "89 portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-213876675",
+    "source" : "S427774501",
+    "target" : "S725897958",
+    "name" : "Strawberries",
+    "lot" : "105",
+    "date" : "2014-07-01",
+    "ID" : "-213876675",
+    "from" : "427774501",
+    "to" : "725897958",
+    "Name" : "Strawberries",
+    "Lot ID" : "-971025338",
+    "Lot Number" : "105",
+    "Date Delivery Arrival" : "2014-07-01",
+    "Amount" : "200 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 1.0,
+    "Lot Score" : 1.0,
+    "Normalized Score" : 1.0,
+    "Positive Score" : 1.0,
+    "Negative Score" : 0.0,
+    "Backward" : true,
+    "Forward" : false
+  }, {
+    "id" : "D-661058065",
+    "source" : "S2087501336",
+    "target" : "S-1839649003",
+    "name" : "Carrots",
+    "lot" : "101",
+    "date" : "2014-08-29",
+    "ID" : "-661058065",
+    "from" : "2087501336",
+    "to" : "-1839649003",
+    "Name" : "Carrots",
+    "Lot ID" : "-1361042077",
+    "Lot Number" : "101",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "60 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.41935483870967744,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.41935483870967744,
+    "Positive Score" : 0.41935483870967744,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-2088460928",
+    "source" : "S407428001",
+    "target" : "S-530502898",
+    "name" : "Meat Broth",
+    "lot" : "144",
+    "date" : "2014-09-02",
+    "ID" : "-2088460928",
+    "from" : "407428001",
+    "to" : "-530502898",
+    "Name" : "Meat Broth",
+    "Lot ID" : "34137396",
+    "Lot Number" : "144",
+    "Date Delivery Arrival" : "2014-09-02",
+    "Amount" : "114 Liter",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1600257637",
+    "source" : "S-465968944",
+    "target" : "S-1839649003",
+    "name" : "Tomato Can",
+    "lot" : "109",
+    "date" : "2014-08-28",
+    "ID" : "-1600257637",
+    "from" : "-465968944",
+    "to" : "-1839649003",
+    "Name" : "Tomato Can",
+    "Lot ID" : "1747113077",
+    "Lot Number" : "109",
+    "Date Delivery Arrival" : "2014-08-28",
+    "Amount" : "450 Piece",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.5483870967741935,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.5483870967741935,
+    "Positive Score" : 0.5483870967741935,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D411330611",
+    "source" : "S182685765",
+    "target" : "S-530502898",
+    "name" : "White Wine",
+    "lot" : "145",
+    "date" : "2014-08-29",
+    "ID" : "411330611",
+    "from" : "182685765",
+    "to" : "-530502898",
+    "Name" : "White Wine",
+    "Lot ID" : "611427348",
+    "Lot Number" : "145",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "38 Liter",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D116330738",
+    "source" : "S-748298955",
+    "target" : "S-1839649003",
+    "name" : "Vanilla Pudding",
+    "lot" : "114",
+    "date" : "2014-08-29",
+    "ID" : "116330738",
+    "from" : "-748298955",
+    "to" : "-1839649003",
+    "Name" : "Vanilla Pudding",
+    "Lot ID" : "1801653662",
+    "Lot Number" : "114",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "90 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.5483870967741935,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.5483870967741935,
+    "Positive Score" : 0.5483870967741935,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1733022129",
+    "source" : "S-411251602",
+    "target" : "S-1839649003",
+    "name" : "Broth",
+    "lot" : "125",
+    "date" : "2014-08-22",
+    "ID" : "1733022129",
+    "from" : "-411251602",
+    "to" : "-1839649003",
+    "Name" : "Broth",
+    "Lot ID" : "-522122144",
+    "Lot Number" : "125",
+    "Date Delivery Arrival" : "2014-08-22",
+    "Amount" : "3 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.41935483870967744,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.41935483870967744,
+    "Positive Score" : 0.41935483870967744,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1761775006",
+    "source" : "S2087501336",
+    "target" : "S-1839649003",
+    "name" : "Leek",
+    "lot" : "103",
+    "date" : "2014-08-29",
+    "ID" : "1761775006",
+    "from" : "2087501336",
+    "to" : "-1839649003",
+    "Name" : "Leek",
+    "Lot ID" : "1465066960",
+    "Lot Number" : "103",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "24 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.41935483870967744,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.41935483870967744,
+    "Positive Score" : 0.41935483870967744,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-327771820",
+    "source" : "S1232435072",
+    "target" : "S1598528439",
+    "name" : "C3 Menu 1",
+    "lot" : "C3M1",
+    "date" : "2014-09-05",
+    "ID" : "-327771820",
+    "from" : "1232435072",
+    "to" : "1598528439",
+    "Name" : "C3 Menu 1",
+    "Lot ID" : "1070146697",
+    "Lot Number" : "C3M1",
+    "Date Delivery Arrival" : "2014-09-05",
+    "Amount" : "36 portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.0,
+    "Lot Score" : 0.0,
+    "Normalized Score" : 0.0,
+    "Positive Score" : 0.0,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1813035989",
+    "source" : "S1232435072",
+    "target" : "S-152237755",
+    "name" : "C3 Menu 1",
+    "lot" : "C3M1",
+    "date" : "2014-09-05",
+    "ID" : "1813035989",
+    "from" : "1232435072",
+    "to" : "-152237755",
+    "Name" : "C3 Menu 1",
+    "Lot ID" : "1070146697",
+    "Lot Number" : "C3M1",
+    "Date Delivery Arrival" : "2014-09-05",
+    "Amount" : "24 portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.0,
+    "Lot Score" : 0.0,
+    "Normalized Score" : 0.0,
+    "Positive Score" : 0.0,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D622177401",
+    "source" : "S1854807080",
+    "target" : "S-530502898",
+    "name" : "Eggs",
+    "lot" : "134",
+    "date" : "2014-09-02",
+    "ID" : "622177401",
+    "from" : "1854807080",
+    "to" : "-530502898",
+    "Name" : "Eggs",
+    "Lot ID" : "909682957",
+    "Lot Number" : "134",
+    "Date Delivery Arrival" : "2014-09-02",
+    "Amount" : "400 Piece",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.45161290322580644,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.45161290322580644,
+    "Positive Score" : 0.45161290322580644,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1327616968",
+    "source" : "S-411251602",
+    "target" : "S-530502898",
+    "name" : "Haunch of a Turkey",
+    "lot" : "141",
+    "date" : "2014-09-02",
+    "ID" : "1327616968",
+    "from" : "-411251602",
+    "to" : "-530502898",
+    "Name" : "Haunch of a Turkey",
+    "Lot ID" : "1442464687",
+    "Lot Number" : "141",
+    "Date Delivery Arrival" : "2014-09-02",
+    "Amount" : "150 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1511271827",
+    "source" : "S407428001",
+    "target" : "S-530502898",
+    "name" : "Paprika Noble Sweet",
+    "lot" : "148",
+    "date" : "2014-06-04",
+    "ID" : "1511271827",
+    "from" : "407428001",
+    "to" : "-530502898",
+    "Name" : "Paprika Noble Sweet",
+    "Lot ID" : "-749378637",
+    "Lot Number" : "148",
+    "Date Delivery Arrival" : "2014-06-04",
+    "Amount" : "2 100g Packets",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1388813266",
+    "source" : "S2087501336",
+    "target" : "S-1839649003",
+    "name" : "Potatoes",
+    "lot" : "100",
+    "date" : "2014-08-29",
+    "ID" : "1388813266",
+    "from" : "2087501336",
+    "to" : "-1839649003",
+    "Name" : "Potatoes",
+    "Lot ID" : "-803329262",
+    "Lot Number" : "100",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "300 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.41935483870967744,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.41935483870967744,
+    "Positive Score" : 0.41935483870967744,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D53925724",
+    "source" : "S2087501336",
+    "target" : "S-1839649003",
+    "name" : "Parsley",
+    "lot" : "104",
+    "date" : "2014-08-29",
+    "ID" : "53925724",
+    "from" : "2087501336",
+    "to" : "-1839649003",
+    "Name" : "Parsley",
+    "Lot ID" : "290458931",
+    "Lot Number" : "104",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "6 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.41935483870967744,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.41935483870967744,
+    "Positive Score" : 0.41935483870967744,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1978232848",
+    "source" : "S-469407878",
+    "target" : "S-530502898",
+    "name" : "Fat",
+    "lot" : "151",
+    "date" : "2014-09-02",
+    "ID" : "-1978232848",
+    "from" : "-469407878",
+    "to" : "-530502898",
+    "Name" : "Fat",
+    "Lot ID" : "1050248076",
+    "Lot Number" : "151",
+    "Date Delivery Arrival" : "2014-09-02",
+    "Amount" : "3 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1312113679",
+    "source" : "S2087501336",
+    "target" : "S-1839649003",
+    "name" : "Celery",
+    "lot" : "102",
+    "date" : "2014-08-29",
+    "ID" : "1312113679",
+    "from" : "2087501336",
+    "to" : "-1839649003",
+    "Name" : "Celery",
+    "Lot ID" : "1891663918",
+    "Lot Number" : "102",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "60 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.41935483870967744,
+    "Lot Score" : 0.41935483870967744,
+    "Normalized Score" : 0.41935483870967744,
+    "Positive Score" : 0.41935483870967744,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1636895931",
+    "source" : "S407428001",
+    "target" : "S-530502898",
+    "name" : "Flour",
+    "lot" : "149",
+    "date" : "2014-06-04",
+    "ID" : "1636895931",
+    "from" : "407428001",
+    "to" : "-530502898",
+    "Name" : "Flour",
+    "Lot ID" : "-560420012",
+    "Lot Number" : "149",
+    "Date Delivery Arrival" : "2014-06-04",
+    "Amount" : "3 1kg Bags",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1731428525",
+    "source" : "S-469407878",
+    "target" : "S-530502898",
+    "name" : "Milk",
+    "lot" : "136",
+    "date" : "2014-09-03",
+    "ID" : "1731428525",
+    "from" : "-469407878",
+    "to" : "-530502898",
+    "Name" : "Milk",
+    "Lot ID" : "433744074",
+    "Lot Number" : "136",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "152 Liter",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.45161290322580644,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.45161290322580644,
+    "Positive Score" : 0.45161290322580644,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1650709510",
+    "source" : "S2087501336",
+    "target" : "S-530502898",
+    "name" : "Onion",
+    "lot" : "142",
+    "date" : "2014-09-02",
+    "ID" : "1650709510",
+    "from" : "2087501336",
+    "to" : "-530502898",
+    "Name" : "Onion",
+    "Lot ID" : "57813777",
+    "Lot Number" : "142",
+    "Date Delivery Arrival" : "2014-09-02",
+    "Amount" : "300 Piece",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1342690276",
+    "source" : "S-530502898",
+    "target" : "S786708581",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "-1342690276",
+    "from" : "-530502898",
+    "to" : "786708581",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "60.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D1464450360",
+    "source" : "S-530502898",
+    "target" : "S1264578570",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "1464450360",
+    "from" : "-530502898",
+    "to" : "1264578570",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "56.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D2122835530",
+    "source" : "S-530502898",
+    "target" : "S1739249147",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "2122835530",
+    "from" : "-530502898",
+    "to" : "1739249147",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "78.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-512439323",
+    "source" : "S-530502898",
+    "target" : "S-1789218288",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "-512439323",
+    "from" : "-530502898",
+    "to" : "-1789218288",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "60.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D1146033905",
+    "source" : "S-530502898",
+    "target" : "S-1766649815",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "1146033905",
+    "from" : "-530502898",
+    "to" : "-1766649815",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "43.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-2063374716",
+    "source" : "S-530502898",
+    "target" : "S1832768338",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "-2063374716",
+    "from" : "-530502898",
+    "to" : "1832768338",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "25.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-120582969",
+    "source" : "S-530502898",
+    "target" : "S-927107216",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "-120582969",
+    "from" : "-530502898",
+    "to" : "-927107216",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "83.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D1070323829",
+    "source" : "S-530502898",
+    "target" : "S131140026",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "1070323829",
+    "from" : "-530502898",
+    "to" : "131140026",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "78.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-10772746",
+    "source" : "S-530502898",
+    "target" : "S203587379",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "-10772746",
+    "from" : "-530502898",
+    "to" : "203587379",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "46.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D845263255",
+    "source" : "S-530502898",
+    "target" : "S-927107216",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "845263255",
+    "from" : "-530502898",
+    "to" : "-927107216",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "83.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D670340639",
+    "source" : "S-530502898",
+    "target" : "S-2011920226",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "670340639",
+    "from" : "-530502898",
+    "to" : "-2011920226",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "90.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D200647603",
+    "source" : "S-530502898",
+    "target" : "S439383000",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "200647603",
+    "from" : "-530502898",
+    "to" : "439383000",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "81.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D471583795",
+    "source" : "S-530502898",
+    "target" : "S-89891365",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "471583795",
+    "from" : "-530502898",
+    "to" : "-89891365",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "27.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D228774242",
+    "source" : "S-530502898",
+    "target" : "S2133553554",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "228774242",
+    "from" : "-530502898",
+    "to" : "2133553554",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "44.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-552606158",
+    "source" : "S-530502898",
+    "target" : "S-46423443",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "-552606158",
+    "from" : "-530502898",
+    "to" : "-46423443",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "29.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D2132649521",
+    "source" : "S-530502898",
+    "target" : "S-1789218288",
+    "name" : "C2 Menu 1",
+    "lot" : "C2M1",
+    "date" : "2014-09-03",
+    "ID" : "2132649521",
+    "from" : "-530502898",
+    "to" : "-1789218288",
+    "Name" : "C2 Menu 1",
+    "Lot ID" : "1140271635",
+    "Lot Number" : "C2M1",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "60.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : true
+  }, {
+    "id" : "D-2038056128",
+    "source" : "S-530502898",
+    "target" : "S-2011920226",
+    "name" : "C2 Menu 2",
+    "lot" : "C2M2",
+    "date" : "2014-09-03",
+    "ID" : "-2038056128",
+    "from" : "-530502898",
+    "to" : "-2011920226",
+    "Name" : "C2 Menu 2",
+    "Lot ID" : "-3437895",
+    "Lot Number" : "C2M2",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "20.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1815859919",
+    "source" : "S-530502898",
+    "target" : "S1832768338",
+    "name" : "C2 Menu 2",
+    "lot" : "C2M2",
+    "date" : "2014-09-03",
+    "ID" : "1815859919",
+    "from" : "-530502898",
+    "to" : "1832768338",
+    "Name" : "C2 Menu 2",
+    "Lot ID" : "-3437895",
+    "Lot Number" : "C2M2",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "31.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D2115065480",
+    "source" : "S-530502898",
+    "target" : "S203587379",
+    "name" : "C2 Menu 2",
+    "lot" : "C2M2",
+    "date" : "2014-09-03",
+    "ID" : "2115065480",
+    "from" : "-530502898",
+    "to" : "203587379",
+    "Name" : "C2 Menu 2",
+    "Lot ID" : "-3437895",
+    "Lot Number" : "C2M2",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "71.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-777437185",
+    "source" : "S-530502898",
+    "target" : "S786708581",
+    "name" : "C2 Menu 2",
+    "lot" : "C2M2",
+    "date" : "2014-09-03",
+    "ID" : "-777437185",
+    "from" : "-530502898",
+    "to" : "786708581",
+    "Name" : "C2 Menu 2",
+    "Lot ID" : "-3437895",
+    "Lot Number" : "C2M2",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "36.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D1656326091",
+    "source" : "S-530502898",
+    "target" : "S-1766649815",
+    "name" : "C2 Menu 2",
+    "lot" : "C2M2",
+    "date" : "2014-09-03",
+    "ID" : "1656326091",
+    "from" : "-530502898",
+    "to" : "-1766649815",
+    "Name" : "C2 Menu 2",
+    "Lot ID" : "-3437895",
+    "Lot Number" : "C2M2",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "54.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1206415087",
+    "source" : "S-530502898",
+    "target" : "S131140026",
+    "name" : "C2 Menu 2",
+    "lot" : "C2M2",
+    "date" : "2014-09-03",
+    "ID" : "-1206415087",
+    "from" : "-530502898",
+    "to" : "131140026",
+    "Name" : "C2 Menu 2",
+    "Lot ID" : "-3437895",
+    "Lot Number" : "C2M2",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "25.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-363428665",
+    "source" : "S-530502898",
+    "target" : "S-46423443",
+    "name" : "C2 Menu 2",
+    "lot" : "C2M2",
+    "date" : "2014-09-03",
+    "ID" : "-363428665",
+    "from" : "-530502898",
+    "to" : "-46423443",
+    "Name" : "C2 Menu 2",
+    "Lot ID" : "-3437895",
+    "Lot Number" : "C2M2",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "57.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1838093885",
+    "source" : "S-530502898",
+    "target" : "S-89891365",
+    "name" : "C2 Menu 2",
+    "lot" : "C2M2",
+    "date" : "2014-09-03",
+    "ID" : "-1838093885",
+    "from" : "-530502898",
+    "to" : "-89891365",
+    "Name" : "C2 Menu 2",
+    "Lot ID" : "-3437895",
+    "Lot Number" : "C2M2",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "50.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D251195443",
+    "source" : "S-530502898",
+    "target" : "S439383000",
+    "name" : "C2 Menu 2",
+    "lot" : "C2M2",
+    "date" : "2014-09-03",
+    "ID" : "251195443",
+    "from" : "-530502898",
+    "to" : "439383000",
+    "Name" : "C2 Menu 2",
+    "Lot ID" : "-3437895",
+    "Lot Number" : "C2M2",
+    "Date Delivery Arrival" : "2014-09-03",
+    "Amount" : "21.0 Portions",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.03225806451612903,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.03225806451612903,
+    "Positive Score" : 0.03225806451612903,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-2015162690",
+    "source" : "S106130750",
+    "target" : "S725897958",
+    "name" : "Strawberries",
+    "lot" : "106",
+    "date" : "2014-07-01",
+    "ID" : "-2015162690",
+    "from" : "106130750",
+    "to" : "725897958",
+    "Name" : "Strawberries",
+    "Lot ID" : "-203406229",
+    "Lot Number" : "106",
+    "Date Delivery Arrival" : "2014-07-01",
+    "Amount" : "230 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 1.0,
+    "Lot Score" : 1.0,
+    "Normalized Score" : 1.0,
+    "Positive Score" : 1.0,
+    "Negative Score" : 0.0,
+    "Backward" : true,
+    "Forward" : false
+  }, {
+    "id" : "D710089031",
+    "source" : "S-469407878",
+    "target" : "S-530502898",
+    "name" : "Fruit Quark",
+    "lot" : "140",
+    "date" : "2014-09-02",
+    "ID" : "710089031",
+    "from" : "-469407878",
+    "to" : "-530502898",
+    "Name" : "Fruit Quark",
+    "Lot ID" : "1225951245",
+    "Lot Number" : "140",
+    "Date Delivery Arrival" : "2014-09-02",
+    "Amount" : "90 kg",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.2903225806451613,
+    "Lot Score" : 0.2903225806451613,
+    "Normalized Score" : 0.2903225806451613,
+    "Positive Score" : 0.2903225806451613,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-805072995",
+    "source" : "S-411251602",
+    "target" : "S-1839649003",
+    "name" : "Minced Meat",
+    "lot" : "110",
+    "date" : "2014-08-29",
+    "ID" : "-805072995",
+    "from" : "-411251602",
+    "to" : "-1839649003",
+    "Name" : "Minced Meat",
+    "Lot ID" : "-1509572077",
+    "Lot Number" : "110",
+    "Date Delivery Arrival" : "2014-08-29",
+    "Amount" : "90 500g Packets",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.5483870967741935,
+    "Lot Score" : 0.5483870967741935,
+    "Normalized Score" : 0.5483870967741935,
+    "Positive Score" : 0.5483870967741935,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  }, {
+    "id" : "D-1771703747",
+    "source" : "S725897958",
+    "target" : "S-530502898",
+    "name" : "Strawberry Sauce",
+    "lot" : "139",
+    "ID" : "-1771703747",
+    "from" : "725897958",
+    "to" : "-530502898",
+    "Name" : "Strawberry Sauce",
+    "Lot ID" : "1730754063",
+    "Lot Number" : "139",
+    "Amount" : "20 Liter",
+    "Weight" : 0.0,
+    "CrossContamination" : false,
+    "Kill Contamination" : false,
+    "Observed" : false,
+    "Score" : 0.45161290322580644,
+    "Lot Score" : 0.45161290322580644,
+    "Normalized Score" : 0.45161290322580644,
+    "Positive Score" : 0.45161290322580644,
+    "Negative Score" : 0.0,
+    "Backward" : false,
+    "Forward" : false
+  } ],
+  "deliveriesRelations" : [ {
+    "source" : "D-1409722688",
+    "target" : "D1813035989"
+  }, {
+    "source" : "D-1409722688",
+    "target" : "D-327771820"
+  }, {
+    "source" : "D375681474",
+    "target" : "D88403882"
+  }, {
+    "source" : "D375681474",
+    "target" : "D1807001206"
+  }, {
+    "source" : "D375681474",
+    "target" : "D1615607798"
+  }, {
+    "source" : "D375681474",
+    "target" : "D228599316"
+  }, {
+    "source" : "D375681474",
+    "target" : "D-1024026034"
+  }, {
+    "source" : "D375681474",
+    "target" : "D-1137772522"
+  }, {
+    "source" : "D375681474",
+    "target" : "D933637150"
+  }, {
+    "source" : "D375681474",
+    "target" : "D-960656898"
+  }, {
+    "source" : "D375681474",
+    "target" : "D1816033446"
+  }, {
+    "source" : "D375681474",
+    "target" : "D1425820947"
+  }, {
+    "source" : "D375681474",
+    "target" : "D-568701000"
+  }, {
+    "source" : "D375681474",
+    "target" : "D-2074797046"
+  }, {
+    "source" : "D375681474",
+    "target" : "D250158289"
+  }, {
+    "source" : "D375681474",
+    "target" : "D1079036246"
+  }, {
+    "source" : "D375681474",
+    "target" : "D-157784701"
+  }, {
+    "source" : "D375681474",
+    "target" : "D1119828645"
+  }, {
+    "source" : "D375681474",
+    "target" : "D1709402787"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D670340639"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D845263255"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D471583795"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D-552606158"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D1146033905"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D-512439323"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D-10772746"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D200647603"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D2132649521"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D-1342690276"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D-2063374716"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D1070323829"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D1464450360"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D228774242"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D2122835530"
+  }, {
+    "source" : "D1233497555",
+    "target" : "D-120582969"
+  }, {
+    "source" : "D-353964204",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D-353964204",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D-353964204",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D-353964204",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D-353964204",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D-353964204",
+    "target" : "D251195443"
+  }, {
+    "source" : "D-353964204",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D-353964204",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D-353964204",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D88403882"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1807001206"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1615607798"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D228599316"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-1024026034"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-1137772522"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D933637150"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-960656898"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1816033446"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1425820947"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-568701000"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-2074797046"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D250158289"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1079036246"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-157784701"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1119828645"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1709402787"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1900999656"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D284071482"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-133259976"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1514815616"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-931496868"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-506792144"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D548622479"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1821297619"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-717706357"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D-1009451428"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D1142921338"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D601411324"
+  }, {
+    "source" : "D1564302581",
+    "target" : "D119611811"
+  }, {
+    "source" : "D1592275507",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D1592275507",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D1592275507",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D1592275507",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D1592275507",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D1592275507",
+    "target" : "D251195443"
+  }, {
+    "source" : "D1592275507",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D1592275507",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D1592275507",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D88403882"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D1807001206"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D1615607798"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D228599316"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D-1024026034"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D-1137772522"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D933637150"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D-960656898"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D1816033446"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D1425820947"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D-568701000"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D-2074797046"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D250158289"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D1079036246"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D-157784701"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D1119828645"
+  }, {
+    "source" : "D-1181059067",
+    "target" : "D1709402787"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D670340639"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D845263255"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D471583795"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D-552606158"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D1146033905"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D-512439323"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D-10772746"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D200647603"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D2132649521"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D-1342690276"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D-2063374716"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D1070323829"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D1464450360"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D228774242"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D2122835530"
+  }, {
+    "source" : "D-1535334209",
+    "target" : "D-120582969"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D251195443"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D670340639"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D845263255"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D471583795"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-552606158"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D1146033905"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-512439323"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-10772746"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D200647603"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D2132649521"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-1342690276"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-2063374716"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D1070323829"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D1464450360"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D228774242"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D2122835530"
+  }, {
+    "source" : "D1324554922",
+    "target" : "D-120582969"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D88403882"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1807001206"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1615607798"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D228599316"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-1024026034"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-1137772522"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D933637150"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-960656898"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1816033446"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1425820947"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-568701000"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-2074797046"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D250158289"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1079036246"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-157784701"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1119828645"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1709402787"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1900999656"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D284071482"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-133259976"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1514815616"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-931496868"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-506792144"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D548622479"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1821297619"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-717706357"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D-1009451428"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D1142921338"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D601411324"
+  }, {
+    "source" : "D-1187600051",
+    "target" : "D119611811"
+  }, {
+    "source" : "D309475001",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D309475001",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D309475001",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D309475001",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D309475001",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D309475001",
+    "target" : "D251195443"
+  }, {
+    "source" : "D309475001",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D309475001",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D309475001",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D556420146",
+    "target" : "D1900999656"
+  }, {
+    "source" : "D556420146",
+    "target" : "D284071482"
+  }, {
+    "source" : "D556420146",
+    "target" : "D-133259976"
+  }, {
+    "source" : "D556420146",
+    "target" : "D1514815616"
+  }, {
+    "source" : "D556420146",
+    "target" : "D-931496868"
+  }, {
+    "source" : "D556420146",
+    "target" : "D-506792144"
+  }, {
+    "source" : "D556420146",
+    "target" : "D548622479"
+  }, {
+    "source" : "D556420146",
+    "target" : "D1821297619"
+  }, {
+    "source" : "D556420146",
+    "target" : "D-717706357"
+  }, {
+    "source" : "D556420146",
+    "target" : "D-1009451428"
+  }, {
+    "source" : "D556420146",
+    "target" : "D1142921338"
+  }, {
+    "source" : "D556420146",
+    "target" : "D601411324"
+  }, {
+    "source" : "D556420146",
+    "target" : "D119611811"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D670340639"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D845263255"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D471583795"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D-552606158"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D1146033905"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D-512439323"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D-10772746"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D200647603"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D2132649521"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D-1342690276"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D-2063374716"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D1070323829"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D1464450360"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D228774242"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D2122835530"
+  }, {
+    "source" : "D-1211741339",
+    "target" : "D-120582969"
+  }, {
+    "source" : "D1599771664",
+    "target" : "D-1409722688"
+  }, {
+    "source" : "D1599771664",
+    "target" : "D375681474"
+  }, {
+    "source" : "D1599771664",
+    "target" : "D1233497555"
+  }, {
+    "source" : "D-213876675",
+    "target" : "D-1409722688"
+  }, {
+    "source" : "D-213876675",
+    "target" : "D375681474"
+  }, {
+    "source" : "D-213876675",
+    "target" : "D1233497555"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D1900999656"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D284071482"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D-133259976"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D1514815616"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D-931496868"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D-506792144"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D548622479"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D1821297619"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D-717706357"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D-1009451428"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D1142921338"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D601411324"
+  }, {
+    "source" : "D-661058065",
+    "target" : "D119611811"
+  }, {
+    "source" : "D-2088460928",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D-2088460928",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D-2088460928",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D-2088460928",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D-2088460928",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D-2088460928",
+    "target" : "D251195443"
+  }, {
+    "source" : "D-2088460928",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D-2088460928",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D-2088460928",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D88403882"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D1807001206"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D1615607798"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D228599316"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D-1024026034"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D-1137772522"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D933637150"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D-960656898"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D1816033446"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D1425820947"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D-568701000"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D-2074797046"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D250158289"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D1079036246"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D-157784701"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D1119828645"
+  }, {
+    "source" : "D-1600257637",
+    "target" : "D1709402787"
+  }, {
+    "source" : "D411330611",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D411330611",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D411330611",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D411330611",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D411330611",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D411330611",
+    "target" : "D251195443"
+  }, {
+    "source" : "D411330611",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D411330611",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D411330611",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D116330738",
+    "target" : "D88403882"
+  }, {
+    "source" : "D116330738",
+    "target" : "D1807001206"
+  }, {
+    "source" : "D116330738",
+    "target" : "D1615607798"
+  }, {
+    "source" : "D116330738",
+    "target" : "D228599316"
+  }, {
+    "source" : "D116330738",
+    "target" : "D-1024026034"
+  }, {
+    "source" : "D116330738",
+    "target" : "D-1137772522"
+  }, {
+    "source" : "D116330738",
+    "target" : "D933637150"
+  }, {
+    "source" : "D116330738",
+    "target" : "D-960656898"
+  }, {
+    "source" : "D116330738",
+    "target" : "D1816033446"
+  }, {
+    "source" : "D116330738",
+    "target" : "D1425820947"
+  }, {
+    "source" : "D116330738",
+    "target" : "D-568701000"
+  }, {
+    "source" : "D116330738",
+    "target" : "D-2074797046"
+  }, {
+    "source" : "D116330738",
+    "target" : "D250158289"
+  }, {
+    "source" : "D116330738",
+    "target" : "D1079036246"
+  }, {
+    "source" : "D116330738",
+    "target" : "D-157784701"
+  }, {
+    "source" : "D116330738",
+    "target" : "D1119828645"
+  }, {
+    "source" : "D116330738",
+    "target" : "D1709402787"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D1900999656"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D284071482"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D-133259976"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D1514815616"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D-931496868"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D-506792144"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D548622479"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D1821297619"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D-717706357"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D-1009451428"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D1142921338"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D601411324"
+  }, {
+    "source" : "D1733022129",
+    "target" : "D119611811"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D1900999656"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D284071482"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D-133259976"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D1514815616"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D-931496868"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D-506792144"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D548622479"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D1821297619"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D-717706357"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D-1009451428"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D1142921338"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D601411324"
+  }, {
+    "source" : "D1761775006",
+    "target" : "D119611811"
+  }, {
+    "source" : "D622177401",
+    "target" : "D670340639"
+  }, {
+    "source" : "D622177401",
+    "target" : "D845263255"
+  }, {
+    "source" : "D622177401",
+    "target" : "D471583795"
+  }, {
+    "source" : "D622177401",
+    "target" : "D-552606158"
+  }, {
+    "source" : "D622177401",
+    "target" : "D1146033905"
+  }, {
+    "source" : "D622177401",
+    "target" : "D-512439323"
+  }, {
+    "source" : "D622177401",
+    "target" : "D-10772746"
+  }, {
+    "source" : "D622177401",
+    "target" : "D200647603"
+  }, {
+    "source" : "D622177401",
+    "target" : "D2132649521"
+  }, {
+    "source" : "D622177401",
+    "target" : "D-1342690276"
+  }, {
+    "source" : "D622177401",
+    "target" : "D-2063374716"
+  }, {
+    "source" : "D622177401",
+    "target" : "D1070323829"
+  }, {
+    "source" : "D622177401",
+    "target" : "D1464450360"
+  }, {
+    "source" : "D622177401",
+    "target" : "D228774242"
+  }, {
+    "source" : "D622177401",
+    "target" : "D2122835530"
+  }, {
+    "source" : "D622177401",
+    "target" : "D-120582969"
+  }, {
+    "source" : "D1327616968",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D1327616968",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D1327616968",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D1327616968",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D1327616968",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D1327616968",
+    "target" : "D251195443"
+  }, {
+    "source" : "D1327616968",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D1327616968",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D1327616968",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D1511271827",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D1511271827",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D1511271827",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D1511271827",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D1511271827",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D1511271827",
+    "target" : "D251195443"
+  }, {
+    "source" : "D1511271827",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D1511271827",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D1511271827",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D1900999656"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D284071482"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D-133259976"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D1514815616"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D-931496868"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D-506792144"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D548622479"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D1821297619"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D-717706357"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D-1009451428"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D1142921338"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D601411324"
+  }, {
+    "source" : "D1388813266",
+    "target" : "D119611811"
+  }, {
+    "source" : "D53925724",
+    "target" : "D1900999656"
+  }, {
+    "source" : "D53925724",
+    "target" : "D284071482"
+  }, {
+    "source" : "D53925724",
+    "target" : "D-133259976"
+  }, {
+    "source" : "D53925724",
+    "target" : "D1514815616"
+  }, {
+    "source" : "D53925724",
+    "target" : "D-931496868"
+  }, {
+    "source" : "D53925724",
+    "target" : "D-506792144"
+  }, {
+    "source" : "D53925724",
+    "target" : "D548622479"
+  }, {
+    "source" : "D53925724",
+    "target" : "D1821297619"
+  }, {
+    "source" : "D53925724",
+    "target" : "D-717706357"
+  }, {
+    "source" : "D53925724",
+    "target" : "D-1009451428"
+  }, {
+    "source" : "D53925724",
+    "target" : "D1142921338"
+  }, {
+    "source" : "D53925724",
+    "target" : "D601411324"
+  }, {
+    "source" : "D53925724",
+    "target" : "D119611811"
+  }, {
+    "source" : "D-1978232848",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D-1978232848",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D-1978232848",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D-1978232848",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D-1978232848",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D-1978232848",
+    "target" : "D251195443"
+  }, {
+    "source" : "D-1978232848",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D-1978232848",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D-1978232848",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D1900999656"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D284071482"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D-133259976"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D1514815616"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D-931496868"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D-506792144"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D548622479"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D1821297619"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D-717706357"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D-1009451428"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D1142921338"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D601411324"
+  }, {
+    "source" : "D1312113679",
+    "target" : "D119611811"
+  }, {
+    "source" : "D1636895931",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D1636895931",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D1636895931",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D1636895931",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D1636895931",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D1636895931",
+    "target" : "D251195443"
+  }, {
+    "source" : "D1636895931",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D1636895931",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D1636895931",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D670340639"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D845263255"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D471583795"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D-552606158"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D1146033905"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D-512439323"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D-10772746"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D200647603"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D2132649521"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D-1342690276"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D-2063374716"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D1070323829"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D1464450360"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D228774242"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D2122835530"
+  }, {
+    "source" : "D1731428525",
+    "target" : "D-120582969"
+  }, {
+    "source" : "D1650709510",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D1650709510",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D1650709510",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D1650709510",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D1650709510",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D1650709510",
+    "target" : "D251195443"
+  }, {
+    "source" : "D1650709510",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D1650709510",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D1650709510",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D-2015162690",
+    "target" : "D-1409722688"
+  }, {
+    "source" : "D-2015162690",
+    "target" : "D375681474"
+  }, {
+    "source" : "D-2015162690",
+    "target" : "D1233497555"
+  }, {
+    "source" : "D710089031",
+    "target" : "D-2038056128"
+  }, {
+    "source" : "D710089031",
+    "target" : "D-1838093885"
+  }, {
+    "source" : "D710089031",
+    "target" : "D-363428665"
+  }, {
+    "source" : "D710089031",
+    "target" : "D1656326091"
+  }, {
+    "source" : "D710089031",
+    "target" : "D2115065480"
+  }, {
+    "source" : "D710089031",
+    "target" : "D251195443"
+  }, {
+    "source" : "D710089031",
+    "target" : "D-777437185"
+  }, {
+    "source" : "D710089031",
+    "target" : "D1815859919"
+  }, {
+    "source" : "D710089031",
+    "target" : "D-1206415087"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D88403882"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D1807001206"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D1615607798"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D228599316"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D-1024026034"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D-1137772522"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D933637150"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D-960656898"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D1816033446"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D1425820947"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D-568701000"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D-2074797046"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D250158289"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D1079036246"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D-157784701"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D1119828645"
+  }, {
+    "source" : "D-805072995",
+    "target" : "D1709402787"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D670340639"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D845263255"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D471583795"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D-552606158"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D1146033905"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D-512439323"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D-10772746"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D200647603"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D2132649521"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D-1342690276"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D-2063374716"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D1070323829"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D1464450360"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D228774242"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D2122835530"
+  }, {
+    "source" : "D-1771703747",
+    "target" : "D-120582969"
+  } ]
+}

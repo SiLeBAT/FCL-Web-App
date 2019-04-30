@@ -16,6 +16,7 @@ export interface TracingState {
     visioReport: VisioReport | null;
     sideBars: SideBarState;
     options: SettingOptions;
+    tracingActive: boolean;
 }
 
 export interface SideBarState {
@@ -30,9 +31,9 @@ export interface SettingOptions {
 
 const initialData: FclData = {
     elements: {
-        stations: null,
-        deliveries: null,
-        samples: null
+        stations: [],
+        deliveries: [],
+        samples: []
     },
     layout: null,
     gisLayout: null,
@@ -50,7 +51,8 @@ const initialState: TracingState = {
     options: {
         graphSettingsOption: 'type',
         tableSettingsOption: 'mode'
-    }
+    },
+    tracingActive: false
 };
 
 // SELECTORS
@@ -59,6 +61,11 @@ export const getTracingFeatureState = createFeatureSelector<TracingState>(STATE_
 export const getFclData = createSelector(
     getTracingFeatureState,
     state => state.fclData
+);
+
+export const getTracingActive = createSelector(
+    getTracingFeatureState,
+    state => state.tracingActive
 );
 
 export const getVisioReport = createSelector(
@@ -84,10 +91,22 @@ export const getTableSettingsOption = createSelector(
 // REDUCER
 export function reducer(state: TracingState = initialState, action: TracingActions): TracingState {
     switch (action.type) {
+        case TracingActionTypes.SetTracingActive:
+            return {
+                ...state,
+                tracingActive: action.payload
+            };
+
         case TracingActionTypes.LoadFclDataSuccess:
             return {
                 ...state,
                 fclData: action.payload
+            };
+
+        case TracingActionTypes.LoadFclDataFailure:
+            return {
+                ...state,
+                fclData: initialData
             };
 
         case TracingActionTypes.GenerateVisioLayoutSuccess:

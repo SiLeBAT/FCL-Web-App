@@ -33,10 +33,10 @@ import { MainPageModule } from './main-page/main-page.module';
         AppRoutingModule
     ],
     providers: [
-        // {
-        //     provide: LocationStrategy,
-        //     useClass: HashLocationStrategy
-        // }
+        {
+            provide: LocationStrategy,
+            useClass: HashLocationStrategy
+        }
     ],
     bootstrap: [
         AppComponent

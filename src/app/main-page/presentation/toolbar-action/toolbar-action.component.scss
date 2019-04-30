@@ -10,6 +10,11 @@
     padding-right: $fcl-toolbar-padding * 4;
 }
 
+.fcl-example,
+.fcl-roa {
+    border-right: 1px solid white;
+}
+
 #fileInput {
     display: none;
 }

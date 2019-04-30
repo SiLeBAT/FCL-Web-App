@@ -1,4 +1,4 @@
-<div class="fcl-action-item fcl-action-container" *ngIf="(isServerLess() || userService.loggedIn()) && !isTracingActive()">
+<div class="fcl-action-item fcl-action-container" *ngIf="(isServerLess() || userService.loggedIn()) && !tracingActive">
     <button
         class="fcl-menu-item"
         mat-button
@@ -9,7 +9,15 @@
     </button>
 </div>
 
-<div class="fcl-action-item fcl-action-container" *ngIf="(isServerLess() || userService.loggedIn()) && isTracingActive()">
+<div class="fcl-action-item fcl-action-container" *ngIf="(isServerLess() || userService.loggedIn()) && tracingActive">
+    <button
+        class="fcl-example"
+        mat-button
+        (click)="loadExample()"
+        matTooltip="Load Example Data">
+        <mat-icon>wb_sunny</mat-icon>
+        Load Example Data
+    </button>
     <button
         mat-button
         (click)="mainPageService.onSaveImage()"
@@ -21,21 +29,21 @@
         id="fileInput"
         #fileInput
         type="file"
-        (change)="mainPageService.onLoad($event)"
+        (change)="onLoad($event)"
     />
     <button
         mat-button
         onclick="document.getElementById('fileInput').click()"
         matTooltip="Upload data">
         <mat-icon>file_upload</mat-icon>
-        Upload
+        Upload Data
     </button>
     <button
         mat-button
         (click)="mainPageService.onSave()"
         matTooltip="Download data">
         <mat-icon>file_download</mat-icon>
-        Download
+        Download Data
     </button>
     <button
         mat-button
@@ -45,6 +53,7 @@
         Open/Close Filter
     </button>
     <button
+        class="fcl-roa"
         mat-button
         (click)="mainPageService.onVisioLayout()"
         matTooltip="Generate ROA Layout">

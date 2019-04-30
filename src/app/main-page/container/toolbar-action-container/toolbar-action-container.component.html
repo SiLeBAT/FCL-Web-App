@@ -1,4 +1,7 @@
 <fcl-toolbar-action
     class="fcl-toolbar-action-item fcl-toolbar-action-container"
-    (toggleRightSidebar)="toggleRightSidebar($event)">
+    [tracingActive]="tracingActive"
+    (toggleRightSidebar)="toggleRightSidebar($event)"
+    (uploadFile)="loadData($event)"
+    (exampleData)="loadExampleData()">
 </fcl-toolbar-action>

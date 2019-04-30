@@ -64,6 +64,9 @@ export class DataService {
     }
 
     getData(): Promise<FclData> {
+
+        console.log('DataService, getData!!!');
+
         if (this.data != null) {
             return new Promise((resolve, reject) => resolve(this.data));
         } else if (typeof this.dataSource === 'string') {
