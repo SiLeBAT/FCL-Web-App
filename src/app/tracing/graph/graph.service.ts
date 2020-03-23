@@ -147,7 +147,8 @@ export class GraphService {
                                 killContamination: delivery.killContamination,
                                 score: delivery.score,
                                 weight: delivery.weight,
-                                wLabelSpace: false
+                                wLabelSpace: false,
+                                width: 1
                             });
                         } else {
                             const observedTypes = _.uniq(deliveries.filter(d => d.observed !== ObservedType.NONE).map(d => d.observed));
@@ -191,7 +192,8 @@ export class GraphService {
                                 killContamination: deliveries.some(d => d.killContamination),
                                 score: _.max(deliveries.map(d => d.score)),
                                 weight: _.sum(deliveries.map(d => d.weight)),
-                                wLabelSpace: false
+                                wLabelSpace: false,
+                                width: 1
                             });
                         }
                     }
@@ -221,7 +223,8 @@ export class GraphService {
                         killContamination: delivery.killContamination,
                         score: delivery.score,
                         weight: delivery.weight,
-                        wLabelSpace: false
+                        wLabelSpace: false,
+                        width: 1
                     });
                 }
             }

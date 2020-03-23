@@ -148,6 +148,7 @@ export interface CyEdgeData extends DeliveryTracingData {
     source: string;
     target: string;
     wLabelSpace: boolean;
+    width: number;
 }
 
 export interface GraphServiceData extends DataServiceData {

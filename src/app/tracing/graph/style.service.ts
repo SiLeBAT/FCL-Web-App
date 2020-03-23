@@ -43,8 +43,8 @@ export class StyleService {
         }
     }
 
-    private createNodeSizeStyle(zoom: number, defaultNodeSize: number, maxScore: number): { height: string, width: string } {
-        const nodeSizeMap: string = this.createNodeSizeMap(zoom, defaultNodeSize, maxScore);
+    private createNodeSizeStyle(defaultModelNodeSize: number, maxScore: number): { height: string, width: string } {
+        const nodeSizeMap: string = this.createNodeSizeMap(defaultModelNodeSize, maxScore);
         return {
             height: nodeSizeMap,
             width: nodeSizeMap
@@ -53,11 +53,11 @@ export class StyleService {
 
     private createXGraphStyle(graphSize: GraphSize, zoom: number, nodeSize: number, fontSize: number, maxScore: number): any {
 
-        const visibleNodeSize = this.getVisibleNodeSize(zoom, nodeSize);
+        const modelNodeSize = nodeSize / zoom; // this.getVisibleNodeSize(zoom, nodeSize);
         const edgeSize = nodeSize * StyleService.NODE_SIZE_TO_EDGE_WIDTH_FACTOR;
-        const visibleEdgeWidth = this.getVisibleEdgeWidth(zoom, edgeSize);
-        const visibleSelectedEdgeWidth = visibleEdgeWidth * StyleService.SELECTED_EDGE_WIDTH_FACTOR;
-        const correctedFontSize = Math.max(fontSize / zoom, fontSize);
+        const modelEdgeWidth = edgeSize / zoom; // this.getVisibleEdgeWidth(zoom, edgeSize);
+        const modelSelectedEdgeWidth = modelEdgeWidth * StyleService.SELECTED_EDGE_WIDTH_FACTOR;
+        const modelFontSize = fontSize / zoom; // Math.max(fontSize / zoom, fontSize);
 
         const style = cytoscape
             .stylesheet()
@@ -76,18 +76,18 @@ export class StyleService {
                         'text-valign': 'bottom',
                         'text-halign': 'right',
                         'text-wrap': 'none',
-                        'font-size': correctedFontSize
+                        'font-size': modelFontSize
                     }
                     :
                     {}
                 ),
                 'shape': 'data(shape)',
-                ...this.createNodeSizeStyle(zoom, nodeSize, maxScore),
+                ...this.createNodeSizeStyle(modelNodeSize, maxScore),
                 'background-fill' : 'linear-gradient',
                 'background-gradient-stop-colors' : 'data(stopColors)',
                 'background-gradient-stop-positions' : 'data(stopPositions)',
                 'background-gradient-direction': 'to-right',
-                'border-width': visibleNodeSize * StyleService.NODE_SIZE_TO_BORDER_WIDTH_FACTOR,
+                'border-width': modelNodeSize * StyleService.NODE_SIZE_TO_BORDER_WIDTH_FACTOR,
                 'border-color': 'rgb(0, 0, 0)',
                 'z-index': 'data(zindex)',
                 color: 'rgb(0, 0, 0)'
@@ -101,26 +101,26 @@ export class StyleService {
                         content: 'data(label)',
                         'text-wrap': 'none',
                         'text-rotation': 'autorotate',
-                        'font-size': correctedFontSize
+                        'font-size': modelFontSize
                     } :
                     {}
                 ),
-                'control-point-step-size': visibleSelectedEdgeWidth * 4,
+                'control-point-step-size': modelSelectedEdgeWidth * 4,
                 'target-arrow-shape': 'triangle-cross',
                 'target-arrow-color': 'rgb(0, 0, 0)',
                 'curve-style': graphSize === GraphSize.SMALL ? 'bezier' : 'straight',
                 'line-fill': 'linear-gradient',
                 'line-gradient-stop-colors': 'data(stopColors)',
                 'line-gradient-stop-positions': 'data(stopPositions)',
-                width: visibleEdgeWidth,
-                'arrow-scale': 1.4
+                width: this.createEdgeWidthMap(modelEdgeWidth, 2),   // modelEdgeWidth,
+                'arrow-scale': this.createArrowScaleMap(1.4) // 1.4
             })
 
             .selector('node:selected')
             .style({
                 'background-color': 'rgb(128, 128, 255)',
                 'border-width': (
-                    visibleNodeSize *
+                    modelNodeSize *
                     StyleService.NODE_SIZE_TO_BORDER_WIDTH_FACTOR *
                     StyleService.SELECTED_NODE_BORDER_WIDTH_FACTOR
                 ),
@@ -129,10 +129,10 @@ export class StyleService {
             })
             .selector('edge:selected:inactive')
             .style({
-                width: visibleSelectedEdgeWidth,
+                width: modelSelectedEdgeWidth,
                 color: 'rgb(0, 0, 255)',
                 'overlay-color': 'rgb(0, 0, 255)',
-                'overlay-padding': visibleSelectedEdgeWidth / 6.0,
+                'overlay-padding': modelSelectedEdgeWidth / 6.0,
                 'overlay-opacity': 1,
                 'target-arrow-color': 'rgb(0, 0, 255)'
             })
@@ -141,7 +141,7 @@ export class StyleService {
                 ...(
                     graphSize !== GraphSize.HUGE ?
                     {
-                        'control-point-step-size': correctedFontSize * 2.5
+                        'control-point-step-size': modelFontSize * 2.5
                     } :
                     {}
                 )
@@ -149,7 +149,7 @@ export class StyleService {
             .selector('node[?isMeta]')
             .style({
                 'border-width': (
-                    visibleNodeSize *
+                    modelNodeSize *
                     StyleService.NODE_SIZE_TO_BORDER_WIDTH_FACTOR *
                     StyleService.META_NODE_BORDER_WIDTH_FACTOR
                 )
@@ -157,7 +157,7 @@ export class StyleService {
             .selector('node:selected[?isMeta]')
             .style({
                 'border-width': (
-                    visibleNodeSize *
+                    modelNodeSize *
                     StyleService.NODE_SIZE_TO_BORDER_WIDTH_FACTOR *
                     StyleService.META_NODE_BORDER_WIDTH_FACTOR *
                     StyleService.SELECTED_NODE_BORDER_WIDTH_FACTOR
@@ -171,21 +171,34 @@ export class StyleService {
         return style;
     }
 
-    private createNodeSizeMap(zoom: number, defaultNodeSize: number, maxScore: number): string {
+    private createNodeSizeMap(defaultModelNodeSize: number, maxScore: number): string {
         if (maxScore > 0) {
-            const minNodeSize = this.getVisibleNodeSize(zoom, defaultNodeSize / 1.2);
+            const minNodeSize = defaultModelNodeSize; // this.getVisibleNodeSize(zoom, defaultNodeSize / 1.2);
             const maxNodeSize = minNodeSize * 1.2 * 1.2;
             return 'mapData(score, 0, ' + maxScore + ', ' + minNodeSize + ',' + maxNodeSize + ')';
         } else {
-            return this.getVisibleNodeSize(zoom, defaultNodeSize).toString();
+            return defaultModelNodeSize.toString(); // this.getVisibleNodeSize(zoom, defaultNodeSize).toString();
         }
     }
 
-    private getVisibleNodeSize(zoom: number, defaultNodeSize: number): number {
-        return Math.max(defaultNodeSize, StyleService.RENDERED_MIN_NODE_SIZE / zoom);
+    private createEdgeWidthMap(defaultModelEdgeWidth: number, maxWidth: number): string | number {
+        if (maxWidth) {
+            const minModelEdgeWidth = defaultModelEdgeWidth; // this.getVisibleNodeSize(zoom, defaultNodeSize / 1.2);
+            const maxModelEdgeWidth = minModelEdgeWidth * 1.2 * 1.2;
+            return 'mapData(width, 1, ' + maxWidth + ', ' + minModelEdgeWidth + ',' + maxModelEdgeWidth + ')';
+        } else {
+            return defaultModelEdgeWidth; // this.getVisibleNodeSize(zoom, defaultNodeSize).toString();
+        }
     }
 
-    private getVisibleEdgeWidth(zoom: number, defaultEdgeWidth: number): number {
-        return Math.max(defaultEdgeWidth, StyleService.RENDERED_MIN_EDGE_WIDTH / zoom);
+    private createArrowScaleMap(arrowScale: number): string {
+        return 'mapData(width, 1.4, ' + 1.5 + ', ' + 1.4 + ',' + 1.5 + ')';
     }
+    // private getVisibleNodeSize(zoom: number, defaultNodeSize: number): number {
+    //     return Math.max(defaultNodeSize, StyleService.RENDERED_MIN_NODE_SIZE / zoom);
+    // }
+
+    // private getVisibleEdgeWidth(zoom: number, defaultEdgeWidth: number): number {
+    //     return Math.max(defaultEdgeWidth, StyleService.RENDERED_MIN_EDGE_WIDTH / zoom);
+    // }
 }
