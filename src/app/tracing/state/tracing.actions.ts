@@ -2,7 +2,7 @@ import { Action } from '@ngrx/store';
 import { VisioReport } from '../visio/layout-engine/datatypes';
 import {
     GraphType, Size, TableMode, FclData, ShowType, SelectedElements, Position,
-    SetTracingSettingsPayload, SetHighlightingSettingsPayload, Layout, MergeDeliveriesType
+    SetTracingSettingsPayload, SetHighlightingSettingsPayload, Layout, MergeDeliveriesType, MapType, ShapeFileData
 } from '../data.model';
 import { SetStationGroupsPayload } from './../grouping/model';
 import { ActivationStatus } from '../../shared/model/types';
@@ -11,11 +11,14 @@ export enum TracingActionTypes {
     TracingActivated = '[Tracing] Tracing active',
     LoadFclDataSuccess = '[Tracing] Load Fcl Data Success',
     LoadFclDataFailure = '[Tracing] Load Fcl Data Failure',
+    LoadShapeFileSuccessSOA = '[Tracing] Load Shape File Success',
+    LoadShapeFileFailureMSA = '[Tracing] Load Shape File Failure',
     GenerateVisioLayoutSuccess = '[Tracing] Generate Visio Layout Success',
     ShowGraphSettingsSOA = '[Tracing] Show Graph Settings',
     ShowConfigurationSideBarSOA = '[Tracing] Show Configuration Settings',
     ShowTableSettingsSOA = '[Tracing] Show Table Settings',
     SetGraphTypeSOA = '[Tracing] Set Graph Type',
+    SetMapTypeSOA = '[Tracing] Set Map Type',
     SetSchemaGraphLayoutSOA = '[Tracing] Set Schema Graph Layout',
     SetGisGraphLayoutSOA = '[Tracing] Set Gis Graph Layout',
     SetNodeSizeSOA = '[Tracing] Set Node Size',
@@ -54,6 +57,16 @@ export class LoadFclDataFailure implements Action {
     readonly type = TracingActionTypes.LoadFclDataFailure;
 }
 
+export class LoadShapeFileSuccessSOA implements Action {
+    readonly type = TracingActionTypes.LoadShapeFileSuccessSOA;
+
+    constructor(public payload: { shapeFileData: ShapeFileData }) {}
+}
+
+export class LoadShapeFileFailureMSA implements Action {
+    readonly type = TracingActionTypes.LoadShapeFileFailureMSA;
+}
+
 export class GenerateVisioLayoutSuccess implements Action {
     readonly type = TracingActionTypes.GenerateVisioLayoutSuccess;
 
@@ -81,7 +94,13 @@ export class ShowTableSettingsSOA implements Action {
 export class SetGraphTypeSOA implements Action {
     readonly type = TracingActionTypes.SetGraphTypeSOA;
 
-    constructor(public payload: GraphType) {}
+    constructor(public payload: { graphType: GraphType }) {}
+}
+
+export class SetMapTypeSOA implements Action {
+    readonly type = TracingActionTypes.SetMapTypeSOA;
+
+    constructor(public payload: { mapType: MapType }) {}
 }
 
 export class SetNodeSizeSOA implements Action {
@@ -208,6 +227,8 @@ export type TracingActions =
       TracingActivated
     | LoadFclDataSuccess
     | LoadFclDataFailure
+    | LoadShapeFileSuccessSOA
+    | LoadShapeFileFailureMSA
     | GenerateVisioLayoutSuccess
     | ShowGraphSettingsSOA
     | ShowConfigurationSideBarSOA
@@ -215,6 +236,7 @@ export type TracingActions =
     | SetSchemaGraphLayoutSOA
     | SetGisGraphLayoutSOA
     | SetGraphTypeSOA
+    | SetMapTypeSOA
     | SetNodeSizeSOA
     | SetFontSizeSOA
     | SetMergeDeliveriesTypeSOA

@@ -87,6 +87,8 @@ export interface InvisibleElements {
 
 export interface GraphSettings {
     type: GraphType;
+    mapType: MapType;
+    shapeFileData: ShapeFileData;
     nodeSize: Size;
     fontSize: Size;
     mergeDeliveriesType: MergeDeliveriesType;
@@ -213,6 +215,12 @@ export enum GraphType {
     GIS = 'GIS' as any
 }
 
+export enum MapType {
+    SHAPE_FILE,
+    BLACK_AND_WHITE,
+    MAPNIK
+}
+
 export enum GroupMode {
     WEIGHT_ONLY = 'Weight only' as any,
     PRODUCT_AND_WEIGHT = 'Product name and weight' as any,
@@ -248,6 +256,10 @@ export enum ObservedType {
     FULL = 'full' as any,
     FORWARD = 'forward' as any,
     BACKWARD = 'backward' as any
+}
+
+export interface ShapeFileData {
+
 }
 
 export interface DataServiceData {

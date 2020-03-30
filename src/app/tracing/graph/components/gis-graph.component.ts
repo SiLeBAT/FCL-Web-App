@@ -2,8 +2,6 @@ import { Component, ElementRef, OnInit, ViewChild, OnDestroy } from '@angular/co
 import { Subject, timer, Subscription } from 'rxjs';
 import * as Hammer from 'hammerjs';
 import * as ol from 'ol';
-import { Tile } from 'ol/layer';
-import { OSM } from 'ol/source';
 import cytoscape from 'cytoscape';
 import html2canvas from 'html2canvas';
 import { ResizeSensor } from 'css-element-queries';
@@ -18,7 +16,9 @@ import {
     LegendInfo,
     StationData,
     DeliveryData,
-    MergeDeliveriesType
+    MergeDeliveriesType,
+    MapType,
+    ShapeFileData
 } from '../../data.model';
 import * as _ from 'lodash';
 import { StyleService } from '../style.service';
@@ -32,12 +32,8 @@ import { filter } from 'rxjs/operators';
 import * as tracingStoreActions from '../../state/tracing.actions';
 import { GraphContextMenuComponent } from './graph-context-menu.component';
 
-import VectorLayer from 'ol/layer/Vector';
-import VectorSource from 'ol/source/Vector';
-import { GeoJSON } from 'ol/format';
-import { Stroke, Style } from 'ol/style';
-import BaseLayer from 'ol/layer/Base';
 import { EdgeLabelOffsetUpdater } from '../edge-label-offset-updater';
+import { removeFrameLayer, setFrameLayer, createOpenLayerMap, updateMapType } from '@app/tracing/util/map-utils';
 
 interface GraphSettingsState {
     fontSize: Size;
@@ -48,6 +44,8 @@ interface GraphSettingsState {
 
 interface GisGraphState extends GraphState, GraphSettingsState {
     layout: Layout;
+    mapType: MapType;
+    shapeFileData: ShapeFileData;
 }
 
 interface GeoCoord {
@@ -107,8 +105,6 @@ export class GisGraphComponent implements OnInit, OnDestroy {
     private cy: Cy;
     private map: ol.Map;
 
-    private vectorLayer: VectorLayer;
-
     private cachedState: GisGraphState;
     private cachedData: GraphServiceData;
     private noGeoData: NoGeoData;
@@ -132,15 +128,6 @@ export class GisGraphComponent implements OnInit, OnDestroy {
     ) {}
 
     ngOnInit() {
-        this.map = new ol.Map({
-            target: this.mapElement.nativeElement,
-            layers: [
-                new Tile({
-                    source: new OSM()
-                })
-            ],
-            controls: []
-        });
         window.onresize = () => {
             timer(500).subscribe(
                 () => {
@@ -252,7 +239,18 @@ export class GisGraphComponent implements OnInit, OnDestroy {
         }
     }
 
+    private initMap(mapConfig: { mapType: MapType; shapeFileData: ShapeFileData }): void {
+        this.map = createOpenLayerMap(mapConfig, this.mapElement.nativeElement);
+    }
+
+    private applyMapType(mapConfig: { mapType: MapType; shapeFileData: ShapeFileData }): void {
+        updateMapType(this.map, mapConfig);
+    }
+
     private initCy(graphState: GisGraphState, graphData: GraphServiceData) {
+        if (!this.map) {
+            this.initMap(graphState);
+        }
         const sub = timer(0).subscribe(
             () => {
                 this.removeFrameLayer();
@@ -866,50 +864,11 @@ export class GisGraphComponent implements OnInit, OnDestroy {
     }
 
     private addFrameLayer() {
-        const polygon = new Style({
-            stroke: new Stroke({
-                color: 'rgba(255, 0, 0, 0.3)',
-                width: 20
-            })
-        });
-
-        const geojsonObject = {
-            type: 'FeatureCollection',
-            features: [
-                {
-                    type: 'Feature',
-                    id: 'polygon',
-                    geometry: {
-                        type: 'Polygon',
-                        coordinates: [[
-                            [this.frameData.xMin, this.frameData.yMax],
-                            [this.frameData.xMin, this.frameData.yMin],
-                            [this.frameData.xMax, this.frameData.yMin],
-                            [this.frameData.xMax, this.frameData.yMax]
-                        ]]
-                    }
-                }
-            ]
-        };
-
-        const vectorSource = new VectorSource({
-            features: new GeoJSON().readFeatures(geojsonObject)
-        });
-
-        this.vectorLayer = new VectorLayer({
-            source: vectorSource,
-            style: polygon
-        });
-
-        this.map.addLayer(this.vectorLayer);
+        setFrameLayer(this.map, this.frameData);
     }
 
     private removeFrameLayer() {
-        this.map.getLayers().forEach((layer: BaseLayer) => {
-            if (layer.getType() === 'VECTOR') {
-                this.map.removeLayer(layer);
-            }
-        });
+        removeFrameLayer(this.map);
     }
 
     private applyState(newState: GisGraphState) {
@@ -932,6 +891,11 @@ export class GisGraphComponent implements OnInit, OnDestroy {
             this.updateGraphStyle(newState, newData);
         } else if (this.cachedData.edgeLabelChangedFlag !== newData.edgeLabelChangedFlag) {
             this.updateEdgeLabels();
+        } else if (
+            this.cachedState.mapType !== newState.mapType ||
+            this.cachedState.shapeFileData !== newState.shapeFileData
+        ) {
+            this.applyMapType(newState);
         }
         this.cachedData = {
             ...this.cachedData,

@@ -12,9 +12,20 @@
 <div class="fcl-action-item fcl-action-container" *ngIf="(isServerLess() || currentUser) && tracingActive">
     <div class="fcl-graph-type fcl-separator mat-body">
         <mat-radio-group [(ngModel)]="graphSettings.type" (ngModelChange)="setGraphType()">
-            <mat-radio-button class="fcl-graph-type-button" *ngFor="let type of graphTypes" [value]="type" [disabled]="type === 'GIS' ? !hasGisInfo : false">
-                {{ type }}
+            <mat-radio-button class="fcl-graph-type-button" [value]="'Graph'" matTooltip="Show Schematic Graph">
+                Graph
             </mat-radio-button>
+            <span class="fcl-graph-type-button">
+                <mat-radio-button [value]="'GIS'" [disabled]="!hasGisInfo" [matTooltip]="!hasGisInfo ? '': 'Show GIS Graph'">
+                    GIS
+                </mat-radio-button>
+                <mat-select class="fcl-map-type-select" [(value)]="selectedMapTypeOption" disableOptionCentering panelClass="fcl-mat-select-below-panel-class" [disabled]="!hasGisInfo" matTooltip="{{hasGisInfo ? 'Select Map Type' : ''}}">
+                    <span *ngFor="let item of availableMapTypes">
+                        <mat-option value="{{item}}" (click)="setMapType(item)">{{mapTypeToLabelMap.get(item)}}</mat-option>
+                    </span>
+                    <mat-option value="" (click)="selectShapeFile($event)">Load Shape File...</mat-option>
+                </mat-select>
+            </span>
         </mat-radio-group>
     </div>
 
@@ -30,11 +41,10 @@
         id="fileInput"
         #fileInput
         type="file"
-        (change)="onLoadData($event)"
     />
     <button
         mat-button
-        (click)="onSelectFile($event)"
+        (click)="onSelectModelFile()"
         matTooltip="Upload data">
         <mat-icon>file_upload</mat-icon>
         Upload Data

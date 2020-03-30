@@ -8,7 +8,7 @@ import * as tracingSelectors from '../state/tracing.selectors';
 import { map, catchError, mergeMap, withLatestFrom } from 'rxjs/operators';
 import { of, from, EMPTY } from 'rxjs';
 import { IOService } from './io.service';
-import { FclData } from '../data.model';
+import { FclData, ShapeFileData } from '../data.model';
 
 import { Store, select } from '@ngrx/store';
 
@@ -30,7 +30,7 @@ export class IOEffects {
         mergeMap(action => {
             const fileList: FileList = action.payload.dataSource;
             if (fileList.length === 1) {
-                return from(this.ioService.getData(fileList[0])).pipe(
+                return from(this.ioService.getFclData(fileList[0])).pipe(
                     map((data: FclData) => new tracingStateActions.LoadFclDataSuccess({ fclData: data })),
                     catchError((error) => {
                         this.alertService.error(`Please select a .json file with the correct format!, error: ${error}`);
@@ -40,6 +40,25 @@ export class IOEffects {
             } else {
                 this.alertService.error('Please select a .json file with the correct format!');
                 return of(new tracingStateActions.LoadFclDataFailure());
+            }
+        })
+    );
+
+    @Effect()
+    loadShapeFileMSA$ = this.actions$.pipe(
+        ofType<ioActions.LoadShapeFileMSA>(ioActions.IOActionTypes.LoadShapeFileMSA),
+        mergeMap(action => {
+            const fileList: FileList = action.payload.dataSource;
+            if (fileList.length === 1) {
+                return from(this.ioService.getShapeFileData(fileList[0])).pipe(
+                    map((data: ShapeFileData) => new tracingStateActions.LoadShapeFileSuccessSOA({ shapeFileData: data })),
+                    catchError((error) => {
+                        this.alertService.error(`The file could not be loaded: ${typeof error === 'string' ? error : error.message}`);
+                        return of(new tracingStateActions.LoadShapeFileFailureMSA());
+                    })
+                );
+            } else {
+                return of(new tracingStateActions.LoadShapeFileFailureMSA());
             }
         })
     );

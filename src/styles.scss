@@ -85,3 +85,24 @@ mat-form-field.less-bottom-padding {
 .ngx-filter-table .filter-header .enforce-icon.datatable-icon-down::before {
     content: "\66";
 }
+
+.fcl-mat-select-below-panel-class {
+    margin: 25px 0;
+}
+
+.fcl-graph-type-button .mat-select.mat-select-disabled .mat-select-arrow {
+    opacity: 0.5;
+}
+
+.fcl-toolbar-item .mat-radio-button.mat-accent .mat-radio-outer-circle {
+    border-color: white;
+}
+
+.fcl-toolbar-item .mat-radio-button.mat-radio-disabled.mat-accent .mat-radio-outer-circle {
+    opacity: 0.5;
+}
+
+.fcl-toolbar-item .mat-radio-button.mat-radio-disabled.mat-accent .mat-radio-label-content {
+    color: white;
+    opacity: 0.5;
+}

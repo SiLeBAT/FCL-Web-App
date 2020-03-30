@@ -6,7 +6,7 @@ import * as tracingActions from '@app/tracing/state/tracing.actions';
 import * as tracingIOActions from '@app/tracing/io/io.actions';
 import * as fromEditor from '../../../graph-editor/state/graph-editor.reducer';
 import * as fromUser from '../../../user/state/user.reducer';
-import { FclData, GraphSettings, BasicGraphState, DataServiceData, GraphType } from '@app/tracing/data.model';
+import { FclData, GraphSettings, BasicGraphState, DataServiceData, GraphType, MapType } from '@app/tracing/data.model';
 import { AlertService } from '@app/shared/services/alert.service';
 import { IOService } from '@app/tracing/io/io.service';
 import { DataService } from './../../../tracing/services/data.service';
@@ -33,6 +33,9 @@ export class ToolbarActionContainerComponent implements OnInit, OnDestroy {
     graphSettings: GraphSettings;
     hasGisInfo = false;
 
+    availableMapTypes: MapType[] = [];
+    private mapTypes: MapType[] = [ MapType.MAPNIK, MapType.BLACK_AND_WHITE, MapType.SHAPE_FILE];
+
     private componentActive: boolean = true;
 
     constructor(
@@ -43,7 +46,6 @@ export class ToolbarActionContainerComponent implements OnInit, OnDestroy {
     ) { }
 
     ngOnInit() {
-
         const graphSettings$: Observable<GraphSettings> = this.store
             .pipe(
                 select(TracingSelectors.getGraphSettings)
@@ -61,6 +63,9 @@ export class ToolbarActionContainerComponent implements OnInit, OnDestroy {
             takeWhile(() => this.componentActive)
         ).subscribe(
             ([graphSettings, basicGraphData]) => {
+                this.availableMapTypes = this.mapTypes.filter(
+                    mapType => mapType !== MapType.SHAPE_FILE || graphSettings.shapeFileData
+                );
                 this.graphSettings = graphSettings;
 
                 const dataServiceData: DataServiceData = this.dataService.getData(basicGraphData);
@@ -73,12 +78,12 @@ export class ToolbarActionContainerComponent implements OnInit, OnDestroy {
 
     }
 
-    loadData(fileList: FileList) {
+    loadModelFile(fileList: FileList) {
         this.store.dispatch(new tracingIOActions.LoadFclDataMSA({ dataSource: fileList }));
     }
 
     loadExampleData() {
-        this.ioService.getData('../../../../assets/data/bbk.json')
+        this.ioService.getFclData('../../../../assets/data/bbk.json')
             .then((data: FclData) => {
                 this.store.dispatch(new tracingActions.LoadFclDataSuccess({ fclData: data }));
 
@@ -89,7 +94,15 @@ export class ToolbarActionContainerComponent implements OnInit, OnDestroy {
     }
 
     setGraphType(graphType: GraphType) {
-        this.store.dispatch(new tracingActions.SetGraphTypeSOA(graphType));
+        this.store.dispatch(new tracingActions.SetGraphTypeSOA({ graphType: graphType }));
+    }
+
+    setMapType(mapType: MapType) {
+        this.store.dispatch(new tracingActions.SetMapTypeSOA({ mapType: mapType }));
+    }
+
+    loadShapeFile(fileList: FileList) {
+        this.store.dispatch(new tracingIOActions.LoadShapeFileMSA({ dataSource: fileList }));
     }
 
     ngOnDestroy() {

@@ -3,9 +3,12 @@
     [tracingActive]="tracingActive$ | async"
     [graphSettings]="graphSettings"
     [hasGisInfo]="hasGisInfo"
+    [availableMapTypes]="availableMapTypes"
     [graphEditorActive]="graphEditorActive$ | async"
     [currentUser]="currentUser$ | async"
-    (loadData)="loadData($event)"
+    (loadModelFile)="loadModelFile($event)"
     (loadExampleData)="loadExampleData()"
-    (graphType)="setGraphType($event)">
+    (graphType)="setGraphType($event)"
+    (mapType)="setMapType($event)"
+    (loadShapeFile)="loadShapeFile($event)">
 </fcl-toolbar-action>

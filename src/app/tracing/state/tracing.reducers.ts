@@ -1,6 +1,6 @@
 import { TracingActions, TracingActionTypes } from './tracing.actions';
 import { Constants } from '../util/constants';
-import { FclData, TableMode, MergeDeliveriesType } from '../data.model';
+import { FclData, TableMode, MergeDeliveriesType, MapType, GraphType } from '../data.model';
 import { VisioReport } from '../visio/layout-engine/datatypes';
 
 export const STATE_SLICE_NAME = 'tracing';
@@ -75,7 +75,9 @@ export function createInitialFclDataState(): FclData {
                 deliveries: []
             },
             schemaLayout: null,
-            gisLayout: null
+            gisLayout: null,
+            mapType: Constants.DEFAULT_MAP_TYPE,
+            shapeFileData: null
         },
         tracingSettings: {
             stations: [],
@@ -102,6 +104,9 @@ export function reducer(state: TracingState = initialState, action: TracingActio
             };
 
         case TracingActionTypes.LoadFclDataSuccess:
+            action.payload.fclData.graphSettings.mapType = state.fclData.graphSettings.mapType;
+            action.payload.fclData.graphSettings.shapeFileData = state.fclData.graphSettings.shapeFileData;
+
             return {
                 ...state,
                 fclData: action.payload.fclData
@@ -144,7 +149,34 @@ export function reducer(state: TracingState = initialState, action: TracingActio
                     ...state.fclData,
                     graphSettings: {
                         ...state.fclData.graphSettings,
-                        type: action.payload
+                        type: action.payload.graphType
+                    }
+                }
+            };
+
+        case TracingActionTypes.SetMapTypeSOA:
+            return {
+                ...state,
+                fclData: {
+                    ...state.fclData,
+                    graphSettings: {
+                        ...state.fclData.graphSettings,
+                        type: GraphType.GIS,
+                        mapType: action.payload.mapType
+                    }
+                }
+            };
+
+        case TracingActionTypes.LoadShapeFileSuccessSOA:
+            return {
+                ...state,
+                fclData: {
+                    ...state.fclData,
+                    graphSettings: {
+                        ...state.fclData.graphSettings,
+                        type: GraphType.GIS,
+                        mapType: MapType.SHAPE_FILE,
+                        shapeFileData: action.payload.shapeFileData
                     }
                 }
             };

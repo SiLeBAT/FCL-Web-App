@@ -152,7 +152,9 @@ export const getGisGraphData = createSelector(
         showMergedDeliveriesCounts: graphSettings.showMergedDeliveriesCounts,
         fontSize: graphSettings.fontSize,
         nodeSize: graphSettings.nodeSize,
-        layout: graphSettings.gisLayout
+        layout: graphSettings.gisLayout,
+        mapType: graphSettings.mapType,
+        shapeFileData: graphSettings.shapeFileData
     })
 );
 

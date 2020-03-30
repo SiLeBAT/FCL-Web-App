@@ -2,7 +2,7 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { TestBed, async } from '@angular/core/testing';
 import { IOService } from './io.service';
-import { FclData, GraphType, Size, ObservedType, MergeDeliveriesType } from '../data.model';
+import { FclData, GraphType, Size, ObservedType, MergeDeliveriesType, MapType } from '../data.model';
 import { JsonData, VERSION } from './ext-data-model.v1';
 
 describe('IOService', () => {
@@ -18,6 +18,7 @@ describe('IOService', () => {
                 IOService
             ]
         });
+
         ioService = TestBed.get(IOService);
     }));
 
@@ -40,6 +41,8 @@ describe('IOService', () => {
             },
             graphSettings: {
                 type: GraphType.GRAPH,
+                mapType: MapType.MAPNIK,
+                shapeFileData: null,
                 nodeSize: Size.MEDIUM,
                 fontSize: Size.MEDIUM,
                 showLegend: true,
